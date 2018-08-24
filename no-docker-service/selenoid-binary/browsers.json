@@ -1,0 +1,22 @@
+{
+	"internet explorer": {
+		"default": "11",
+		"versions": {
+		  "11": {
+			"image": ["D:\\selenoid-file\\no-docker-service\\selenoid-binary\\IEDriverServer.exe", "--log-level=DEBUG"]
+		  }
+		}
+	},
+    "MicrosoftEdge": {
+        "default": "42.17134.1.0",
+        "versions": {
+            "42.17134.1.0": {
+                "image": [
+                    "D:\\selenoid-file\\no-docker-service\\selenoid-binary\\MicrosoftWebDriver.exe", "--host=127.0.0.1", "--verbose"
+                ],
+                "port": "",
+                "path": "/"
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  selenoid:
+    image: "aerokube/selenoid:1.7.1"
+    network_mode: bridge
+    ports:
+      - "8082:4444"
+    volumes:
+      - ".:/etc/selenoid/" # assumed current dir contains browsers.json
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    command: ["-limit", "50", "-log-output-dir", "/opt/selenoid/logs", "-session-attempt-timeout", "2m", "-service-startup-timeout", "2m"]
+  selenoid-ui:
+    image: "aerokube/selenoid-ui:1.6.1"
+    network_mode: bridge
+    depends_on:
+      - selenoid
+    links:
+      - selenoid
+    ports:
+      - "8080:8080"
+    command: ["--selenoid-uri", "http://selenoid:4444"]
+  ggr:
+    image: aerokube/ggr:1.5.5
+    ports:
+      - 5555:5555
+    restart: unless-stopped
+    volumes:
+      - ./etc/grid-router:/etc/grid-router:ro
+    command: ["-listen", ":5555"]
+  ggr-ui:
+    image: aerokube/ggr-ui:1.1.1
+    network_mode: bridge
+    depends_on:
+      - ggr
+    ports:
+      - 8888:8888
+    restart: unless-stopped
+    volumes:
+      - ./etc/grid-router/quota:/etc/grid-router/quota:ro
+  selenoid-ggr-ui:
+    image: "aerokube/selenoid-ui:1.6.1"
+    network_mode: bridge
+    links:
+      - ggr-ui
+    ports:
+      - "8088:8080"
+    command: ["--selenoid-uri", "http://ggr-ui:8888"]

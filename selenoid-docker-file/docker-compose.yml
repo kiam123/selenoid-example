@@ -1,0 +1,22 @@
+version: '3'
+services:
+  selenoid:
+    image: "aerokube/selenoid:1.7.1"
+    network_mode: bridge
+    ports:
+      - "8081:4444"
+    volumes:
+      - ".:/etc/selenoid/" # assumed current dir contains browsers.json
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./logs/:/opt/selenoid/logs/"
+    command: ["-limit", "50","-log-output-dir", "/opt/selenoid/logs", "-log-conf", "logging/logging.json", "-session-attempt-timeout", "2m", "-service-startup-timeout", "2m"]
+  selenoid-ui:
+    image: "aerokube/selenoid-ui:1.6.1"
+    network_mode: bridge
+    depends_on:
+      - selenoid
+    links:
+      - selenoid
+    ports:
+      - "8080:8080"
+    command: ["--selenoid-uri", "http://selenoid:4444"]

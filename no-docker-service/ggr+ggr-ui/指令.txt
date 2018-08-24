@@ -1,0 +1,3 @@
+docker run -d --name ggr -v //etc/grid-router:/etc/grid-router:ro -p 5555:5555 aerokube/ggr:1.5.5
+docker run --name ggr-ui -d -p 8888:8888 -v //etc/grid-router/quota:/etc/grid-router/quota:ro aerokube/ggr-ui:1.1.1
+docker run --name selenoid-ui -d --link ggr-ui -p 8080:8080 aerokube/selenoid-ui:1.6.1 --selenoid-uri http://ggr-ui:8888

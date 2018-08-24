@@ -1,0 +1,15 @@
+filebeat.autodiscover:
+  providers:
+    - type: docker
+      templates:
+        - condition:
+            not:
+              contains:
+                docker.container.image: filebeat
+          config:
+            - type: docker
+              containers.ids:
+                - "${data.docker.container.id}"
+logging.metrics.enabled: false
+output.logstash:
+  hosts: ["140.116.6.61:5044"]

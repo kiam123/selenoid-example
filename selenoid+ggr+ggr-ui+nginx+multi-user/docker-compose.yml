@@ -1,0 +1,91 @@
+version: '3'
+
+services:
+  nginx:
+    image: nginx:stable-alpine
+    depends_on:
+    - ggr
+    ports:
+    - 4443:4443
+    restart: unless-stopped
+    volumes:
+    - ./etc/nginx/conf.d/ggr.conf:/etc/nginx/conf.d/ggr.conf:ro
+  ggr:
+    image: aerokube/ggr:1.5.5
+    network_mode: bridge
+    ports:
+      - 5555:5555
+    restart: unless-stopped
+    volumes:
+      - ./etc/grid-router:/etc/grid-router:ro
+    command: ["-listen", ":5555"]
+  ggr-ui:
+    image: aerokube/ggr-ui:1.1.1
+    network_mode: bridge
+    depends_on:
+      - ggr
+    ports:
+      - 8888:8888
+    volumes:
+      - ./etc/grid-router/quota:/etc/grid-router/quota:ro
+  selenoid-ggr-ui:
+    image: "aerokube/selenoid-ui:1.6.1"
+    network_mode: bridge
+    depends_on:
+      - ggr-ui
+    links:
+      - ggr-ui
+    ports:
+      - "8088:8080"
+    command: ["--selenoid-uri", "http://ggr-ui:8888"]
+    
+  #test_user 1
+  selenoid:
+    image: "aerokube/selenoid:1.7.2"
+    network_mode: bridge
+    ports:
+      - "8081:4444"
+    volumes:
+      - "./test_user1/:/etc/selenoid/" # assumed current dir contains browsers.json
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./test_user1/test_user1_logs/:/opt/selenoid/logs/"
+      - "./test_user1/test_user1_video/:/opt/selenoid/video/"
+    environment:
+      - OVERRIDE_VIDEO_OUTPUT_DIR=/d/selenoid-file/selenoid+ggr+ggr-ui+nginx+multi-user/test_user1/test_user1_video/
+    command: ["-limit", "50", "-log-output-dir", "/opt/selenoid/logs", "-session-attempt-timeout", "2m", "-service-startup-timeout", "2m"]
+  selenoid-ui-1:
+    image: "aerokube/selenoid-ui:1.6.1"
+    network_mode: bridge
+    depends_on:
+      - selenoid
+    links:
+      - selenoid
+    ports:
+      - "8080:8080"
+    command: ["--selenoid-uri", "http://selenoid:4444"]
+    
+  #test_user 2
+  selenoid2:
+    image: "aerokube/selenoid:1.7.2"
+    network_mode: bridge
+    ports:
+      - "8083:4444"
+    volumes:
+      - "./test_user2/:/etc/selenoid/" # assumed current dir contains browsers.json
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./test_user2/test_user2_logs/:/opt/selenoid/logs/"
+      - "./test_user2/test_user2_video/:/opt/selenoid/video/"
+    environment:
+      - OVERRIDE_VIDEO_OUTPUT_DIR=/d/selenoid-file/selenoid+ggr+ggr-ui+nginx+multi-user/test_user2/test_user2_video/
+    command: ["-limit", "50", "-log-output-dir", "/opt/selenoid/logs", "-session-attempt-timeout", "2m", "-service-startup-timeout", "2m"]
+  selenoid-ui-2:
+    image: "aerokube/selenoid-ui:1.6.1"
+    network_mode: bridge
+    depends_on:
+      - selenoid2
+    links:
+      - selenoid2
+    ports:
+      - "8082:8080"
+    command: ["--selenoid-uri", "http://selenoid2:4444"]
+  

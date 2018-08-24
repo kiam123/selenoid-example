@@ -1,0 +1,56 @@
+version: '3'
+services:
+  #Selenoid 1
+  selenoid:
+    image: "aerokube/selenoid:1.7.1"
+    network_mode: bridge
+    ports:
+      - "8081:4444"
+    volumes:
+      - ".:/etc/selenoid/" # assumed current dir contains browsers.json
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    command: ["-limit", "50", "-log-output-dir", "/opt/selenoid/logs", "-session-attempt-timeout", "2m", "-service-startup-timeout", "2m"]
+  selenoid-ui:
+    image: "aerokube/selenoid-ui:1.6.1"
+    network_mode: bridge
+    depends_on:
+      - selenoid
+    links:
+      - selenoid
+    ports:
+      - "8080:8080"
+    command: ["--selenoid-uri", "http://selenoid:4444"]
+    
+  # Selenoid 2
+  selenoid2:
+    image: "aerokube/selenoid:1.7.2"
+    network_mode: bridge
+    ports:
+      - "8083:4444"
+    volumes:
+      - ".:/etc/selenoid/" # assumed current dir contains browsers.json
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    command: ["-limit", "50", "-log-output-dir", "/opt/selenoid/logs", "-session-attempt-timeout", "2m", "-service-startup-timeout", "2m"]
+  selenoid-ui-2:
+    image: "aerokube/selenoid-ui:1.6.1"
+    network_mode: bridge
+    depends_on:
+      - selenoid2
+    links:
+      - selenoid2
+    ports:
+      - "8082:8080"
+    command: ["--selenoid-uri", "http://selenoid2:4444"]
+    
+  # SHOULD BE STARTED ON THE HOST WITH SELENOID
+  telegraf:
+    image: telegraf:latest
+    container_name: telegraf
+    network_mode: "host"
+    depends_on:
+      - selenoid
+    volumes:
+      - ./telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    environment:
+      # real influx host
+      INFLUXDB_URI: "http://ahkui.com:8086"

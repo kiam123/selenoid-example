@@ -1,0 +1,12 @@
+version: '3'
+services:
+  # SHOULD BE STARTED ON THE HOST WITH SELENOID
+  telegraf:
+    image: telegraf:latest
+    container_name: telegraf
+    network_mode: "host"
+    volumes:
+      - ./telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    environment:
+      # real influx host
+      INFLUXDB_URI: "http://ahkui.com:8086"

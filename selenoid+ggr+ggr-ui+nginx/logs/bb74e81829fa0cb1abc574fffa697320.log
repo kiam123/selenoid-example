@@ -1,0 +1,2404 @@
+2018-08-15T03:14:15.509043600Z Waiting xvfb...
+2018-08-15T03:14:15.847617400Z Starting ChromeDriver 2.39.562737 (dba483cee6a5f15e2e2d73df16968ab10b38a2bf) on port 4444
+2018-08-15T03:14:15.847642300Z All remote connections are allowed. Use a whitelist instead!
+2018-08-15T03:14:15.887503900Z Failed to read: session.ignoreBorder
+2018-08-15T03:14:15.887693600Z Setting default value
+2018-08-15T03:14:15.887706300Z Failed to read: session.forcePseudoTransparency
+2018-08-15T03:14:15.887711300Z Setting default value
+2018-08-15T03:14:15.887715400Z Failed to read: session.colorsPerChannel
+2018-08-15T03:14:15.887743900Z Setting default value
+2018-08-15T03:14:15.887748700Z Failed to read: session.doubleClickInterval
+2018-08-15T03:14:15.887753000Z Setting default value
+2018-08-15T03:14:15.887757100Z Failed to read: session.tabPadding
+2018-08-15T03:14:15.887761200Z Setting default value
+2018-08-15T03:14:15.887765200Z Failed to read: session.styleOverlay
+2018-08-15T03:14:15.887769300Z Setting default value
+2018-08-15T03:14:15.887773200Z Failed to read: session.slitlistFile
+2018-08-15T03:14:15.887777200Z Setting default value
+2018-08-15T03:14:15.887781100Z Failed to read: session.appsFile
+2018-08-15T03:14:15.887785100Z Setting default value
+2018-08-15T03:14:15.887928600Z Failed to read: session.tabsAttachArea
+2018-08-15T03:14:15.887938800Z Setting default value
+2018-08-15T03:14:15.887943700Z Failed to read: session.cacheLife
+2018-08-15T03:14:15.887948000Z Setting default value
+2018-08-15T03:14:15.887952300Z Failed to read: session.cacheMax
+2018-08-15T03:14:15.887956400Z Setting default value
+2018-08-15T03:14:15.887960400Z Failed to read: session.autoRaiseDelay
+2018-08-15T03:14:15.887964400Z Setting default value
+2018-08-15T03:14:15.889605100Z Failed to read: session.ignoreBorder
+2018-08-15T03:14:15.889617700Z Setting default value
+2018-08-15T03:14:15.889624500Z Failed to read: session.forcePseudoTransparency
+2018-08-15T03:14:15.889629300Z Setting default value
+2018-08-15T03:14:15.889633400Z Failed to read: session.colorsPerChannel
+2018-08-15T03:14:15.889637500Z Setting default value
+2018-08-15T03:14:15.889641500Z Failed to read: session.doubleClickInterval
+2018-08-15T03:14:15.889645500Z Setting default value
+2018-08-15T03:14:15.889649400Z Failed to read: session.tabPadding
+2018-08-15T03:14:15.889653500Z Setting default value
+2018-08-15T03:14:15.889657500Z Failed to read: session.styleOverlay
+2018-08-15T03:14:15.889661500Z Setting default value
+2018-08-15T03:14:15.889665500Z Failed to read: session.slitlistFile
+2018-08-15T03:14:15.889669500Z Setting default value
+2018-08-15T03:14:15.889680100Z Failed to read: session.appsFile
+2018-08-15T03:14:15.889684400Z Setting default value
+2018-08-15T03:14:15.889688300Z Failed to read: session.tabsAttachArea
+2018-08-15T03:14:15.889727500Z Setting default value
+2018-08-15T03:14:15.889734100Z Failed to read: session.cacheLife
+2018-08-15T03:14:15.889738200Z Setting default value
+2018-08-15T03:14:15.889792300Z Failed to read: session.cacheMax
+2018-08-15T03:14:15.889931500Z Setting default value
+2018-08-15T03:14:15.889939400Z Failed to read: session.autoRaiseDelay
+2018-08-15T03:14:15.889943800Z Setting default value
+2018-08-15T03:14:15.890924400Z 
+2018-08-15T03:14:15.890934100Z  --- x11vnc loop: 1 ---
+2018-08-15T03:14:15.890939000Z 
+2018-08-15T03:14:15.916871900Z [1534302855.916][INFO]: COMMAND InitSession {
+2018-08-15T03:14:15.916893500Z    "capabilities": {
+2018-08-15T03:14:15.916899200Z       "desiredCapabilities": {
+2018-08-15T03:14:15.916903500Z          "browserName": "chrome",
+2018-08-15T03:14:15.916907600Z          "enableVNC": true,
+2018-08-15T03:14:15.916919200Z          "platform": "ANY",
+2018-08-15T03:14:15.916923500Z          "screenResolution": "1920x1080x24",
+2018-08-15T03:14:15.916927600Z          "version": ""
+2018-08-15T03:14:15.916931700Z       },
+2018-08-15T03:14:15.916935600Z       "firstMatch": [ {
+2018-08-15T03:14:15.916939600Z          "browserName": "chrome"
+2018-08-15T03:14:15.916943600Z       } ]
+2018-08-15T03:14:15.916947500Z    },
+2018-08-15T03:14:15.916951300Z    "desiredCapabilities": {
+2018-08-15T03:14:15.916955300Z       "browserName": "chrome",
+2018-08-15T03:14:15.916959300Z       "enableVNC": true,
+2018-08-15T03:14:15.916963200Z       "platform": "ANY",
+2018-08-15T03:14:15.916967100Z       "screenResolution": "1920x1080x24",
+2018-08-15T03:14:15.916971100Z       "version": ""
+2018-08-15T03:14:15.916975100Z    }
+2018-08-15T03:14:15.916978800Z }
+2018-08-15T03:14:15.924088100Z [1534302855.924][INFO]: Populating Preferences file: {
+2018-08-15T03:14:15.924104600Z    "alternate_error_pages": {
+2018-08-15T03:14:15.924109400Z       "enabled": false
+2018-08-15T03:14:15.924113600Z    },
+2018-08-15T03:14:15.924117600Z    "autofill": {
+2018-08-15T03:14:15.924121500Z       "enabled": false
+2018-08-15T03:14:15.924125500Z    },
+2018-08-15T03:14:15.924129300Z    "browser": {
+2018-08-15T03:14:15.924133200Z       "check_default_browser": false
+2018-08-15T03:14:15.924137100Z    },
+2018-08-15T03:14:15.924145600Z    "distribution": {
+2018-08-15T03:14:15.924149800Z       "import_bookmarks": false,
+2018-08-15T03:14:15.924153700Z       "import_history": false,
+2018-08-15T03:14:15.924157600Z       "import_search_engine": false,
+2018-08-15T03:14:15.924161400Z       "make_chrome_default_for_user": false,
+2018-08-15T03:14:15.924165300Z       "skip_first_run_ui": true
+2018-08-15T03:14:15.924169100Z    },
+2018-08-15T03:14:15.924172700Z    "dns_prefetching": {
+2018-08-15T03:14:15.924176500Z       "enabled": false
+2018-08-15T03:14:15.924180400Z    },
+2018-08-15T03:14:15.924184100Z    "profile": {
+2018-08-15T03:14:15.924187800Z       "content_settings": {
+2018-08-15T03:14:15.924191600Z          "pattern_pairs": {
+2018-08-15T03:14:15.924195300Z             "https://*,*": {
+2018-08-15T03:14:15.924199100Z                "media-stream": {
+2018-08-15T03:14:15.924202900Z                   "audio": "Default",
+2018-08-15T03:14:15.924206800Z                   "video": "Default"
+2018-08-15T03:14:15.924210600Z                }
+2018-08-15T03:14:15.924214400Z             }
+2018-08-15T03:14:15.924218000Z          }
+2018-08-15T03:14:15.924221700Z       },
+2018-08-15T03:14:15.924225400Z       "default_content_setting_values": {
+2018-08-15T03:14:15.924229300Z          "geolocation": 1
+2018-08-15T03:14:15.924233000Z       },
+2018-08-15T03:14:15.924236700Z       "default_content_settings": {
+2018-08-15T03:14:15.924240500Z          "geolocation": 1,
+2018-08-15T03:14:15.924244200Z          "mouselock": 1,
+2018-08-15T03:14:15.924248400Z          "notifications": 1,
+2018-08-15T03:14:15.924252200Z          "popups": 1,
+2018-08-15T03:14:15.924256000Z          "ppapi-broker": 1
+2018-08-15T03:14:15.924259800Z       },
+2018-08-15T03:14:15.924263400Z       "password_manager_enabled": false
+2018-08-15T03:14:15.924267100Z    },
+2018-08-15T03:14:15.924270700Z    "safebrowsing": {
+2018-08-15T03:14:15.924274300Z       "enabled": false
+2018-08-15T03:14:15.924278000Z    },
+2018-08-15T03:14:15.924281600Z    "search": {
+2018-08-15T03:14:15.924285200Z       "suggest_enabled": false
+2018-08-15T03:14:15.924288900Z    },
+2018-08-15T03:14:15.924292500Z    "translate": {
+2018-08-15T03:14:15.924296100Z       "enabled": false
+2018-08-15T03:14:15.924299800Z    }
+2018-08-15T03:14:15.924303500Z }
+2018-08-15T03:14:15.924307200Z [1534302855.924][INFO]: Populating Local State file: {
+2018-08-15T03:14:15.924311000Z    "background_mode": {
+2018-08-15T03:14:15.924317200Z       "enabled": false
+2018-08-15T03:14:15.924321200Z    },
+2018-08-15T03:14:15.924324800Z    "ssl": {
+2018-08-15T03:14:15.924328500Z       "rev_checking": {
+2018-08-15T03:14:15.924332200Z          "enabled": false
+2018-08-15T03:14:15.924336000Z       }
+2018-08-15T03:14:15.924339700Z    }
+2018-08-15T03:14:15.924343400Z }
+2018-08-15T03:14:15.926697500Z [1534302855.927][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension=/tmp/.org.chromium.Chromium.LWNXZI/internal --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.QNSK6t data:,
+2018-08-15T03:14:16.391873500Z  --- x11vnc loop: waiting for: 66
+2018-08-15T03:14:16.391937100Z 
+2018-08-15T03:14:16.737375400Z Failed to read: session.screen0.opaqueMove
+2018-08-15T03:14:16.737396100Z Setting default value
+2018-08-15T03:14:16.737400900Z Failed to read: session.screen0.fullMaximization
+2018-08-15T03:14:16.737405000Z Setting default value
+2018-08-15T03:14:16.737409000Z Failed to read: session.screen0.maxIgnoreIncrement
+2018-08-15T03:14:16.737413000Z Setting default value
+2018-08-15T03:14:16.737416900Z Failed to read: session.screen0.maxDisableMove
+2018-08-15T03:14:16.737420800Z Setting default value
+2018-08-15T03:14:16.737424600Z Failed to read: session.screen0.maxDisableResize
+2018-08-15T03:14:16.737428500Z Setting default value
+2018-08-15T03:14:16.737432200Z Failed to read: session.screen0.workspacewarping
+2018-08-15T03:14:16.737436100Z Setting default value
+2018-08-15T03:14:16.737439900Z Failed to read: session.screen0.showwindowposition
+2018-08-15T03:14:16.737443700Z Setting default value
+2018-08-15T03:14:16.737447500Z Failed to read: session.screen0.autoRaise
+2018-08-15T03:14:16.737451300Z Setting default value
+2018-08-15T03:14:16.737455100Z Failed to read: session.screen0.clickRaises
+2018-08-15T03:14:16.737459000Z Setting default value
+2018-08-15T03:14:16.737462800Z Failed to read: session.screen0.defaultDeco
+2018-08-15T03:14:16.737466600Z Setting default value
+2018-08-15T03:14:16.737470400Z Failed to read: session.screen0.tab.placement
+2018-08-15T03:14:16.737474200Z Setting default value
+2018-08-15T03:14:16.737478000Z Failed to read: session.screen0.windowMenu
+2018-08-15T03:14:16.737481800Z Setting default value
+2018-08-15T03:14:16.737485500Z Failed to read: session.screen0.noFocusWhileTypingDelay
+2018-08-15T03:14:16.737496400Z Setting default value
+2018-08-15T03:14:16.738449200Z Failed to read: session.screen0.workspaces
+2018-08-15T03:14:16.738458800Z Setting default value
+2018-08-15T03:14:16.738463200Z Failed to read: session.screen0.edgeSnapThreshold
+2018-08-15T03:14:16.738467200Z Setting default value
+2018-08-15T03:14:16.738471100Z Failed to read: session.screen0.window.focus.alpha
+2018-08-15T03:14:16.738475200Z Setting default value
+2018-08-15T03:14:16.738479100Z Failed to read: session.screen0.window.unfocus.alpha
+2018-08-15T03:14:16.738483000Z Setting default value
+2018-08-15T03:14:16.738487000Z Failed to read: session.screen0.menu.alpha
+2018-08-15T03:14:16.738490900Z Setting default value
+2018-08-15T03:14:16.738494700Z Failed to read: session.screen0.menuDelay
+2018-08-15T03:14:16.738498600Z Setting default value
+2018-08-15T03:14:16.738502400Z Failed to read: session.screen0.tab.width
+2018-08-15T03:14:16.738506200Z Setting default value
+2018-08-15T03:14:16.738510000Z Failed to read: session.screen0.tooltipDelay
+2018-08-15T03:14:16.738513900Z Setting default value
+2018-08-15T03:14:16.738517700Z Failed to read: session.screen0.allowRemoteActions
+2018-08-15T03:14:16.738521600Z Setting default value
+2018-08-15T03:14:16.738525400Z Failed to read: session.screen0.clientMenu.usePixmap
+2018-08-15T03:14:16.738529300Z Setting default value
+2018-08-15T03:14:16.738535700Z Failed to read: session.screen0.tabs.usePixmap
+2018-08-15T03:14:16.738539700Z Setting default value
+2018-08-15T03:14:16.738543600Z Failed to read: session.screen0.tabs.maxOver
+2018-08-15T03:14:16.738547500Z Setting default value
+2018-08-15T03:14:16.738551300Z Failed to read: session.screen0.tabs.intitlebar
+2018-08-15T03:14:16.738555200Z Setting default value
+2018-08-15T03:14:16.738559000Z Failed to read: session.screen0.focusModel
+2018-08-15T03:14:16.738562900Z Setting default value
+2018-08-15T03:14:16.738566600Z Failed to read: session.screen0.tabFocusModel
+2018-08-15T03:14:16.738570500Z Setting default value
+2018-08-15T03:14:16.738574300Z Failed to read: session.screen0.focusNewWindows
+2018-08-15T03:14:16.738578100Z Setting default value
+2018-08-15T03:14:16.738581900Z Failed to read: session.screen0.focusSameHead
+2018-08-15T03:14:16.738585800Z Setting default value
+2018-08-15T03:14:16.738589600Z Failed to read: session.screen0.rowPlacementDirection
+2018-08-15T03:14:16.738593500Z Setting default value
+2018-08-15T03:14:16.738597300Z Failed to read: session.screen0.colPlacementDirection
+2018-08-15T03:14:16.738601100Z Setting default value
+2018-08-15T03:14:16.738664300Z Failed to read: session.screen0.windowPlacement
+2018-08-15T03:14:16.738671700Z Setting default value
+2018-08-15T03:14:16.740135000Z Failed to read: session.ignoreBorder
+2018-08-15T03:14:16.740146600Z Setting default value
+2018-08-15T03:14:16.740151400Z Failed to read: session.forcePseudoTransparency
+2018-08-15T03:14:16.740155500Z Setting default value
+2018-08-15T03:14:16.740159400Z Failed to read: session.colorsPerChannel
+2018-08-15T03:14:16.740163200Z Setting default value
+2018-08-15T03:14:16.740167100Z Failed to read: session.doubleClickInterval
+2018-08-15T03:14:16.740170900Z Setting default value
+2018-08-15T03:14:16.740174800Z Failed to read: session.tabPadding
+2018-08-15T03:14:16.740178800Z Setting default value
+2018-08-15T03:14:16.740189800Z Failed to read: session.styleOverlay
+2018-08-15T03:14:16.740194500Z Setting default value
+2018-08-15T03:14:16.740198400Z Failed to read: session.slitlistFile
+2018-08-15T03:14:16.740202300Z Setting default value
+2018-08-15T03:14:16.740206000Z Failed to read: session.appsFile
+2018-08-15T03:14:16.740209800Z Setting default value
+2018-08-15T03:14:16.740213500Z Failed to read: session.tabsAttachArea
+2018-08-15T03:14:16.740217200Z Setting default value
+2018-08-15T03:14:16.740332400Z Failed to read: session.cacheLife
+2018-08-15T03:14:16.740341400Z Setting default value
+2018-08-15T03:14:16.740345900Z Failed to read: session.cacheMax
+2018-08-15T03:14:16.740350000Z Setting default value
+2018-08-15T03:14:16.740363000Z Failed to read: session.autoRaiseDelay
+2018-08-15T03:14:16.740367900Z Setting default value
+2018-08-15T03:14:16.740371900Z Failed to read: session.screen0.opaqueMove
+2018-08-15T03:14:16.740375900Z Setting default value
+2018-08-15T03:14:16.740379800Z Failed to read: session.screen0.fullMaximization
+2018-08-15T03:14:16.740383700Z Setting default value
+2018-08-15T03:14:16.740387500Z Failed to read: session.screen0.maxIgnoreIncrement
+2018-08-15T03:14:16.740391600Z Setting default value
+2018-08-15T03:14:16.740395600Z Failed to read: session.screen0.maxDisableMove
+2018-08-15T03:14:16.740399500Z Setting default value
+2018-08-15T03:14:16.740403400Z Failed to read: session.screen0.maxDisableResize
+2018-08-15T03:14:16.740407300Z Setting default value
+2018-08-15T03:14:16.740411100Z Failed to read: session.screen0.workspacewarping
+2018-08-15T03:14:16.740415000Z Setting default value
+2018-08-15T03:14:16.740418800Z Failed to read: session.screen0.showwindowposition
+2018-08-15T03:14:16.740422700Z Setting default value
+2018-08-15T03:14:16.740426400Z Failed to read: session.screen0.autoRaise
+2018-08-15T03:14:16.740435700Z Setting default value
+2018-08-15T03:14:16.740440000Z Failed to read: session.screen0.clickRaises
+2018-08-15T03:14:16.740443900Z Setting default value
+2018-08-15T03:14:16.740447700Z Failed to read: session.screen0.defaultDeco
+2018-08-15T03:14:16.740451500Z Setting default value
+2018-08-15T03:14:16.740455100Z Failed to read: session.screen0.tab.placement
+2018-08-15T03:14:16.740458800Z Setting default value
+2018-08-15T03:14:16.740462600Z Failed to read: session.screen0.windowMenu
+2018-08-15T03:14:16.740466300Z Setting default value
+2018-08-15T03:14:16.740470000Z Failed to read: session.screen0.noFocusWhileTypingDelay
+2018-08-15T03:14:16.740473800Z Setting default value
+2018-08-15T03:14:16.740477400Z Failed to read: session.screen0.workspaces
+2018-08-15T03:14:16.740481100Z Setting default value
+2018-08-15T03:14:16.740484900Z Failed to read: session.screen0.edgeSnapThreshold
+2018-08-15T03:14:16.740488600Z Setting default value
+2018-08-15T03:14:16.740492300Z Failed to read: session.screen0.window.focus.alpha
+2018-08-15T03:14:16.740496000Z Setting default value
+2018-08-15T03:14:16.740499600Z Failed to read: session.screen0.window.unfocus.alpha
+2018-08-15T03:14:16.740503300Z Setting default value
+2018-08-15T03:14:16.740507100Z Failed to read: session.screen0.menu.alpha
+2018-08-15T03:14:16.740510800Z Setting default value
+2018-08-15T03:14:16.740514400Z Failed to read: session.screen0.menuDelay
+2018-08-15T03:14:16.740518200Z Setting default value
+2018-08-15T03:14:16.740521800Z Failed to read: session.screen0.tab.width
+2018-08-15T03:14:16.740525500Z Setting default value
+2018-08-15T03:14:16.740529200Z Failed to read: session.screen0.tooltipDelay
+2018-08-15T03:14:16.740532900Z Setting default value
+2018-08-15T03:14:16.740536600Z Failed to read: session.screen0.allowRemoteActions
+2018-08-15T03:14:16.740540400Z Setting default value
+2018-08-15T03:14:16.740544000Z Failed to read: session.screen0.clientMenu.usePixmap
+2018-08-15T03:14:16.740547700Z Setting default value
+2018-08-15T03:14:16.740551400Z Failed to read: session.screen0.tabs.usePixmap
+2018-08-15T03:14:16.740555100Z Setting default value
+2018-08-15T03:14:16.740558800Z Failed to read: session.screen0.tabs.maxOver
+2018-08-15T03:14:16.740562500Z Setting default value
+2018-08-15T03:14:16.740566100Z Failed to read: session.screen0.tabs.intitlebar
+2018-08-15T03:14:16.740569800Z Setting default value
+2018-08-15T03:14:16.740573500Z Failed to read: session.screen0.focusModel
+2018-08-15T03:14:16.740577200Z Setting default value
+2018-08-15T03:14:16.740581500Z Failed to read: session.screen0.tabFocusModel
+2018-08-15T03:14:16.740588500Z Setting default value
+2018-08-15T03:14:16.740592500Z Failed to read: session.screen0.focusNewWindows
+2018-08-15T03:14:16.740596400Z Setting default value
+2018-08-15T03:14:16.740600100Z Failed to read: session.screen0.focusSameHead
+2018-08-15T03:14:16.740603800Z Setting default value
+2018-08-15T03:14:16.740607400Z Failed to read: session.screen0.rowPlacementDirection
+2018-08-15T03:14:16.740611100Z Setting default value
+2018-08-15T03:14:16.740614800Z Failed to read: session.screen0.colPlacementDirection
+2018-08-15T03:14:16.740618500Z Setting default value
+2018-08-15T03:14:16.740622900Z Failed to read: session.screen0.windowPlacement
+2018-08-15T03:14:16.740626700Z Setting default value
+2018-08-15T03:14:16.792654600Z PORT=5900
+2018-08-15T03:14:16.892694600Z Failed to read: session.screen0.slit.acceptKdeDockapps
+2018-08-15T03:14:16.892741400Z Setting default value
+2018-08-15T03:14:16.892747800Z Failed to read: session.screen0.slit.autoHide
+2018-08-15T03:14:16.892752200Z Setting default value
+2018-08-15T03:14:16.892756200Z Failed to read: session.screen0.slit.maxOver
+2018-08-15T03:14:16.892760300Z Setting default value
+2018-08-15T03:14:16.893412000Z Failed to read: session.screen0.slit.placement
+2018-08-15T03:14:16.893423000Z Setting default value
+2018-08-15T03:14:16.893428200Z Failed to read: session.screen0.slit.alpha
+2018-08-15T03:14:16.893432600Z Setting default value
+2018-08-15T03:14:16.893436700Z Failed to read: session.screen0.slit.onhead
+2018-08-15T03:14:16.893440800Z Setting default value
+2018-08-15T03:14:16.893466300Z Failed to read: session.screen0.slit.layer
+2018-08-15T03:14:16.893472800Z Setting default value
+2018-08-15T03:14:16.979218800Z Failed to read: session.screen0.toolbar.autoHide
+2018-08-15T03:14:16.979243400Z Setting default value
+2018-08-15T03:14:16.979284900Z Failed to read: session.screen0.toolbar.maxOver
+2018-08-15T03:14:16.979292000Z Setting default value
+2018-08-15T03:14:16.979314900Z Failed to read: session.screen0.toolbar.widthPercent
+2018-08-15T03:14:16.979338000Z Setting default value
+2018-08-15T03:14:16.979380000Z Failed to read: session.screen0.toolbar.alpha
+2018-08-15T03:14:16.979407900Z Setting default value
+2018-08-15T03:14:16.979433300Z Failed to read: session.screen0.toolbar.layer
+2018-08-15T03:14:16.979473400Z Setting default value
+2018-08-15T03:14:16.979498100Z Failed to read: session.screen0.toolbar.onhead
+2018-08-15T03:14:16.979521500Z Setting default value
+2018-08-15T03:14:16.979571200Z Failed to read: session.screen0.toolbar.placement
+2018-08-15T03:14:16.979599500Z Setting default value
+2018-08-15T03:14:16.979656300Z Failed to read: session.screen0.toolbar.height
+2018-08-15T03:14:16.979701300Z Setting default value
+2018-08-15T03:14:18.160420900Z [50:80:0815/031418.157320:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+2018-08-15T03:14:18.753773400Z ATTENTION: default value of option force_s3tc_enable overridden by environment.
+2018-08-15T03:14:19.079982200Z [50:279:0815/031419.079688:ERROR:bus.cc(394)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+2018-08-15T03:14:19.141196900Z [95:95:0815/031419.140883:ERROR:sandbox_linux.cc(378)] InitializeSandbox() called with multiple threads in process gpu-process.
+2018-08-15T03:14:19.314166300Z 
+2018-08-15T03:14:19.314195100Z DevTools listening on ws://127.0.0.1:39843/devtools/browser/73c55a16-8d25-4676-9c70-8099ffa42c33
+2018-08-15T03:14:19.357644300Z [1534302859.357][DEBUG]: DevTools request: http://localhost:39843/json/version
+2018-08-15T03:14:19.811955100Z [50:50:0815/031419.811817:ERROR:gpu_process_transport_factory.cc(1017)] Lost UI shared context.
+2018-08-15T03:14:19.822561700Z [1534302859.822][DEBUG]: DevTools response: {
+2018-08-15T03:14:19.822576900Z    "Browser": "Chrome/67.0.3396.62",
+2018-08-15T03:14:19.822589200Z    "Protocol-Version": "1.3",
+2018-08-15T03:14:19.822594200Z    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36",
+2018-08-15T03:14:19.822598700Z    "V8-Version": "6.7.288.42",
+2018-08-15T03:14:19.822602700Z    "WebKit-Version": "537.36 (@babbbb5b433370f9a7feeb9f98a57599ad1c4676)",
+2018-08-15T03:14:19.822606900Z    "webSocketDebuggerUrl": "ws://localhost:39843/devtools/browser/73c55a16-8d25-4676-9c70-8099ffa42c33"
+2018-08-15T03:14:19.822611200Z }
+2018-08-15T03:14:19.822644900Z 
+2018-08-15T03:14:19.824511800Z [1534302859.824][DEBUG]: DevTools request: http://localhost:39843/json
+2018-08-15T03:14:19.829632600Z [1534302859.829][DEBUG]: DevTools response: [ {
+2018-08-15T03:14:19.829678800Z    "description": "",
+2018-08-15T03:14:19.829685500Z    "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:39843/devtools/page/ED26DD505CA4596F9544AD4DCD8358E6",
+2018-08-15T03:14:19.829690400Z    "id": "ED26DD505CA4596F9544AD4DCD8358E6",
+2018-08-15T03:14:19.829694700Z    "title": "Chrome Automation Extension",
+2018-08-15T03:14:19.829698900Z    "type": "background_page",
+2018-08-15T03:14:19.829702900Z    "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+2018-08-15T03:14:19.829707200Z    "webSocketDebuggerUrl": "ws://localhost:39843/devtools/page/ED26DD505CA4596F9544AD4DCD8358E6"
+2018-08-15T03:14:19.829711500Z }, {
+2018-08-15T03:14:19.829715300Z    "description": "",
+2018-08-15T03:14:19.829719400Z    "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:39843/devtools/page/A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:19.829733500Z    "id": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:19.829738100Z    "title": "",
+2018-08-15T03:14:19.829742100Z    "type": "page",
+2018-08-15T03:14:19.829746000Z    "url": "data:,",
+2018-08-15T03:14:19.829750100Z    "webSocketDebuggerUrl": "ws://localhost:39843/devtools/page/A2962F5286A287E2AE291EE43386CEC0"
+2018-08-15T03:14:19.829754300Z } ]
+2018-08-15T03:14:19.829758200Z 
+2018-08-15T03:14:19.829762000Z [1534302859.830][DEBUG]: DevTools request: http://localhost:39843/json
+2018-08-15T03:14:19.907504800Z Failed to read: session.screen0.titlebar.left
+2018-08-15T03:14:19.907524900Z Setting default value
+2018-08-15T03:14:19.907537900Z Failed to read: session.screen0.titlebar.right
+2018-08-15T03:14:19.907542100Z Setting default value
+2018-08-15T03:14:19.932134700Z [1534302859.932][DEBUG]: DevTools response: [ {
+2018-08-15T03:14:19.932154100Z    "description": "",
+2018-08-15T03:14:19.932159200Z    "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:39843/devtools/page/ED26DD505CA4596F9544AD4DCD8358E6",
+2018-08-15T03:14:19.932173000Z    "id": "ED26DD505CA4596F9544AD4DCD8358E6",
+2018-08-15T03:14:19.932177900Z    "title": "Chrome Automation Extension",
+2018-08-15T03:14:19.932182000Z    "type": "background_page",
+2018-08-15T03:14:19.932186200Z    "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+2018-08-15T03:14:19.932190400Z    "webSocketDebuggerUrl": "ws://localhost:39843/devtools/page/ED26DD505CA4596F9544AD4DCD8358E6"
+2018-08-15T03:14:19.932194600Z }, {
+2018-08-15T03:14:19.932198400Z    "description": "",
+2018-08-15T03:14:19.932202300Z    "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:39843/devtools/page/A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:19.932206400Z    "id": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:19.932210300Z    "title": "",
+2018-08-15T03:14:19.932214100Z    "type": "page",
+2018-08-15T03:14:19.932217800Z    "url": "data:,",
+2018-08-15T03:14:19.932221800Z    "webSocketDebuggerUrl": "ws://localhost:39843/devtools/page/A2962F5286A287E2AE291EE43386CEC0"
+2018-08-15T03:14:19.932225900Z } ]
+2018-08-15T03:14:19.932229500Z 
+2018-08-15T03:14:19.946741200Z [1534302859.946][INFO]: resolved localhost to ["127.0.0.1","172.17.0.7","::1"]
+2018-08-15T03:14:20.038563500Z 
+2018-08-15T03:14:20.038585400Z (google-chrome:50): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Unknown or unsupported transport 'disabled' for address 'disabled:'
+2018-08-15T03:14:20.088929900Z [1534302860.089][DEBUG]: DEVTOOLS COMMAND Log.enable (id=1) {
+2018-08-15T03:14:20.088948900Z 
+2018-08-15T03:14:20.088983600Z }
+2018-08-15T03:14:20.089064800Z [1534302860.089][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=2) {
+2018-08-15T03:14:20.089079200Z 
+2018-08-15T03:14:20.089083400Z }
+2018-08-15T03:14:20.089087400Z [1534302860.089][DEBUG]: DEVTOOLS COMMAND Target.setAutoAttach (id=3) {
+2018-08-15T03:14:20.089091400Z    "autoAttach": true,
+2018-08-15T03:14:20.089095400Z    "waitForDebuggerOnStart": false
+2018-08-15T03:14:20.089099400Z }
+2018-08-15T03:14:20.089181800Z [1534302860.089][DEBUG]: DEVTOOLS COMMAND Page.enable (id=4) {
+2018-08-15T03:14:20.089189300Z 
+2018-08-15T03:14:20.089193700Z }
+2018-08-15T03:14:20.089334000Z [1534302860.089][DEBUG]: DEVTOOLS COMMAND Page.enable (id=5) {
+2018-08-15T03:14:20.089341900Z 
+2018-08-15T03:14:20.089346100Z }
+2018-08-15T03:14:20.618680800Z [1534302860.619][DEBUG]: DEVTOOLS RESPONSE Log.enable (id=1) {
+2018-08-15T03:14:20.618722100Z 
+2018-08-15T03:14:20.618727800Z }
+2018-08-15T03:14:20.619405000Z [1534302860.619][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=2) {
+2018-08-15T03:14:20.619420200Z    "root": {
+2018-08-15T03:14:20.619425700Z       "backendNodeId": 1,
+2018-08-15T03:14:20.619430400Z       "baseURL": "about:blank",
+2018-08-15T03:14:20.619435000Z       "childNodeCount": 1,
+2018-08-15T03:14:20.619439400Z       "children": [ {
+2018-08-15T03:14:20.619443700Z          "attributes": [  ],
+2018-08-15T03:14:20.619447800Z          "backendNodeId": 2,
+2018-08-15T03:14:20.619452000Z          "childNodeCount": 2,
+2018-08-15T03:14:20.619456000Z          "children": [ {
+2018-08-15T03:14:20.619460000Z             "attributes": [  ],
+2018-08-15T03:14:20.619464200Z             "backendNodeId": 3,
+2018-08-15T03:14:20.619468200Z             "childNodeCount": 0,
+2018-08-15T03:14:20.619472100Z             "localName": "head",
+2018-08-15T03:14:20.619476200Z             "nodeId": 3,
+2018-08-15T03:14:20.619480100Z             "nodeName": "HEAD",
+2018-08-15T03:14:20.619484000Z             "nodeType": 1,
+2018-08-15T03:14:20.619487900Z             "nodeValue": "",
+2018-08-15T03:14:20.619492100Z             "parentId": 2
+2018-08-15T03:14:20.619496000Z          }, {
+2018-08-15T03:14:20.619500000Z             "attributes": [  ],
+2018-08-15T03:14:20.619504100Z             "backendNodeId": 4,
+2018-08-15T03:14:20.619508100Z             "childNodeCount": 0,
+2018-08-15T03:14:20.619512100Z             "localName": "body",
+2018-08-15T03:14:20.619516200Z             "nodeId": 4,
+2018-08-15T03:14:20.619520000Z             "nodeName": "BODY",
+2018-08-15T03:14:20.619532200Z             "nodeType": 1,
+2018-08-15T03:14:20.619536500Z             "nodeValue": "",
+2018-08-15T03:14:20.619540400Z             "parentId": 2
+2018-08-15T03:14:20.619544400Z          } ],
+2018-08-15T03:14:20.619548200Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:20.619552500Z          "localName": "html",
+2018-08-15T03:14:20.619556500Z          "nodeId": 2,
+2018-08-15T03:14:20.619560600Z          "nodeName": "HTML",
+2018-08-15T03:14:20.619564600Z          "nodeType": 1,
+2018-08-15T03:14:20.619568400Z          "nodeValue": "",
+2018-08-15T03:14:20.619572200Z          "parentId": 1
+2018-08-15T03:14:20.619576000Z       } ],
+2018-08-15T03:14:20.619579900Z       "documentURL": "",
+2018-08-15T03:14:20.619583800Z       "localName": "",
+2018-08-15T03:14:20.619587700Z       "nodeId": 1,
+2018-08-15T03:14:20.619591600Z       "nodeName": "#document",
+2018-08-15T03:14:20.619595700Z       "nodeType": 9,
+2018-08-15T03:14:20.619599600Z       "nodeValue": "",
+2018-08-15T03:14:20.619603500Z       "xmlVersion": ""
+2018-08-15T03:14:20.619607400Z    }
+2018-08-15T03:14:20.619611300Z }
+2018-08-15T03:14:20.619616700Z [1534302860.620][DEBUG]: DEVTOOLS RESPONSE Target.setAutoAttach (id=3) {
+2018-08-15T03:14:20.619621100Z 
+2018-08-15T03:14:20.619624800Z }
+2018-08-15T03:14:20.619771600Z [1534302860.620][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=4) {
+2018-08-15T03:14:20.619782800Z 
+2018-08-15T03:14:20.619787300Z }
+2018-08-15T03:14:20.620001900Z [1534302860.620][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=5) {
+2018-08-15T03:14:20.620011400Z 
+2018-08-15T03:14:20.620015700Z }
+2018-08-15T03:14:20.620019600Z [1534302860.620][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=6) {
+2018-08-15T03:14:20.620023700Z 
+2018-08-15T03:14:20.620037300Z }
+2018-08-15T03:14:20.641470700Z [1534302860.641][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+2018-08-15T03:14:20.641505500Z    "frame": {
+2018-08-15T03:14:20.641511400Z       "id": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:20.641516200Z       "loaderId": "226752C50FA50D7FFED27E1E7C7BB22B",
+2018-08-15T03:14:20.641520600Z       "mimeType": "text/plain",
+2018-08-15T03:14:20.641524900Z       "securityOrigin": "://",
+2018-08-15T03:14:20.641529100Z       "url": "data:,"
+2018-08-15T03:14:20.641533300Z    }
+2018-08-15T03:14:20.641537300Z }
+2018-08-15T03:14:20.641541200Z [1534302860.641][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+2018-08-15T03:14:20.641553800Z 
+2018-08-15T03:14:20.641558100Z }
+2018-08-15T03:14:20.641562100Z [1534302860.641][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=7) {
+2018-08-15T03:14:20.641566300Z 
+2018-08-15T03:14:20.641570100Z }
+2018-08-15T03:14:20.641824400Z [1534302860.642][DEBUG]: DEVTOOLS EVENT Page.loadEventFired {
+2018-08-15T03:14:20.641837500Z    "timestamp": 53538.392584
+2018-08-15T03:14:20.641854700Z }
+2018-08-15T03:14:20.641859700Z [1534302860.642][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+2018-08-15T03:14:20.641864100Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0"
+2018-08-15T03:14:20.641868300Z }
+2018-08-15T03:14:20.641872400Z [1534302860.642][DEBUG]: DEVTOOLS EVENT Page.domContentEventFired {
+2018-08-15T03:14:20.641876700Z    "timestamp": 53538.393971
+2018-08-15T03:14:20.641880700Z }
+2018-08-15T03:14:20.641884600Z [1534302860.642][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+2018-08-15T03:14:20.641888800Z 
+2018-08-15T03:14:20.641892800Z }
+2018-08-15T03:14:20.641896800Z [1534302860.642][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=8) {
+2018-08-15T03:14:20.641909900Z 
+2018-08-15T03:14:20.641913900Z }
+2018-08-15T03:14:20.646331100Z [1534302860.646][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+2018-08-15T03:14:20.646352200Z    "context": {
+2018-08-15T03:14:20.646366500Z       "auxData": {
+2018-08-15T03:14:20.646371000Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:20.646375400Z          "isDefault": true
+2018-08-15T03:14:20.646379500Z       },
+2018-08-15T03:14:20.646383500Z       "id": 1,
+2018-08-15T03:14:20.646387500Z       "name": "",
+2018-08-15T03:14:20.646391600Z       "origin": "://"
+2018-08-15T03:14:20.646395600Z    }
+2018-08-15T03:14:20.646399500Z }
+2018-08-15T03:14:20.646403600Z [1534302860.646][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=6) {
+2018-08-15T03:14:20.646407900Z 
+2018-08-15T03:14:20.646411900Z }
+2018-08-15T03:14:20.646949900Z [1534302860.647][DEBUG]: DEVTOOLS EVENT Page.frameResized {
+2018-08-15T03:14:20.646962800Z 
+2018-08-15T03:14:20.646967600Z }
+2018-08-15T03:14:20.647828000Z [1534302860.648][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=7) {
+2018-08-15T03:14:20.647840000Z    "root": {
+2018-08-15T03:14:20.647844600Z       "backendNodeId": 5,
+2018-08-15T03:14:20.647848900Z       "baseURL": "data:,",
+2018-08-15T03:14:20.647861200Z       "childNodeCount": 1,
+2018-08-15T03:14:20.647865900Z       "children": [ {
+2018-08-15T03:14:20.647882100Z          "attributes": [  ],
+2018-08-15T03:14:20.647886500Z          "backendNodeId": 6,
+2018-08-15T03:14:20.647890400Z          "childNodeCount": 2,
+2018-08-15T03:14:20.647894400Z          "children": [ {
+2018-08-15T03:14:20.647898200Z             "attributes": [  ],
+2018-08-15T03:14:20.647915200Z             "backendNodeId": 7,
+2018-08-15T03:14:20.647919200Z             "childNodeCount": 0,
+2018-08-15T03:14:20.647922900Z             "localName": "head",
+2018-08-15T03:14:20.647927200Z             "nodeId": 7,
+2018-08-15T03:14:20.647930900Z             "nodeName": "HEAD",
+2018-08-15T03:14:20.647934700Z             "nodeType": 1,
+2018-08-15T03:14:20.647938400Z             "nodeValue": "",
+2018-08-15T03:14:20.647942100Z             "parentId": 6
+2018-08-15T03:14:20.647945900Z          }, {
+2018-08-15T03:14:20.647949500Z             "attributes": [  ],
+2018-08-15T03:14:20.647953200Z             "backendNodeId": 8,
+2018-08-15T03:14:20.647956900Z             "childNodeCount": 0,
+2018-08-15T03:14:20.647960600Z             "localName": "body",
+2018-08-15T03:14:20.647964300Z             "nodeId": 8,
+2018-08-15T03:14:20.647968000Z             "nodeName": "BODY",
+2018-08-15T03:14:20.647971700Z             "nodeType": 1,
+2018-08-15T03:14:20.647975400Z             "nodeValue": "",
+2018-08-15T03:14:20.647979000Z             "parentId": 6
+2018-08-15T03:14:20.647982700Z          } ],
+2018-08-15T03:14:20.647986500Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:20.647990400Z          "localName": "html",
+2018-08-15T03:14:20.647994200Z          "nodeId": 6,
+2018-08-15T03:14:20.647997900Z          "nodeName": "HTML",
+2018-08-15T03:14:20.648001700Z          "nodeType": 1,
+2018-08-15T03:14:20.648005400Z          "nodeValue": "",
+2018-08-15T03:14:20.648009100Z          "parentId": 5
+2018-08-15T03:14:20.648012800Z       } ],
+2018-08-15T03:14:20.648016300Z       "documentURL": "data:,",
+2018-08-15T03:14:20.648020100Z       "localName": "",
+2018-08-15T03:14:20.648039200Z       "nodeId": 5,
+2018-08-15T03:14:20.648043200Z       "nodeName": "#document",
+2018-08-15T03:14:20.648047200Z       "nodeType": 9,
+2018-08-15T03:14:20.648051000Z       "nodeValue": "",
+2018-08-15T03:14:20.648054900Z       "xmlVersion": ""
+2018-08-15T03:14:20.648058900Z    }
+2018-08-15T03:14:20.648062700Z }
+2018-08-15T03:14:20.648372100Z [1534302860.648][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=8) {
+2018-08-15T03:14:20.648391800Z    "root": {
+2018-08-15T03:14:20.648396600Z       "backendNodeId": 5,
+2018-08-15T03:14:20.648400600Z       "baseURL": "data:,",
+2018-08-15T03:14:20.648404400Z       "childNodeCount": 1,
+2018-08-15T03:14:20.648408200Z       "children": [ {
+2018-08-15T03:14:20.648425500Z          "attributes": [  ],
+2018-08-15T03:14:20.648429500Z          "backendNodeId": 6,
+2018-08-15T03:14:20.648433300Z          "childNodeCount": 2,
+2018-08-15T03:14:20.648437100Z          "children": [ {
+2018-08-15T03:14:20.648440900Z             "attributes": [  ],
+2018-08-15T03:14:20.648444600Z             "backendNodeId": 7,
+2018-08-15T03:14:20.648448400Z             "childNodeCount": 0,
+2018-08-15T03:14:20.648452200Z             "localName": "head",
+2018-08-15T03:14:20.648456100Z             "nodeId": 11,
+2018-08-15T03:14:20.648459800Z             "nodeName": "HEAD",
+2018-08-15T03:14:20.648478100Z             "nodeType": 1,
+2018-08-15T03:14:20.648482800Z             "nodeValue": "",
+2018-08-15T03:14:20.648486800Z             "parentId": 10
+2018-08-15T03:14:20.648490700Z          }, {
+2018-08-15T03:14:20.648494600Z             "attributes": [  ],
+2018-08-15T03:14:20.648498500Z             "backendNodeId": 8,
+2018-08-15T03:14:20.648502300Z             "childNodeCount": 0,
+2018-08-15T03:14:20.648506100Z             "localName": "body",
+2018-08-15T03:14:20.648510000Z             "nodeId": 12,
+2018-08-15T03:14:20.648513800Z             "nodeName": "BODY",
+2018-08-15T03:14:20.648517600Z             "nodeType": 1,
+2018-08-15T03:14:20.648521300Z             "nodeValue": "",
+2018-08-15T03:14:20.648525100Z             "parentId": 10
+2018-08-15T03:14:20.648528800Z          } ],
+2018-08-15T03:14:20.648532500Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:20.648536500Z          "localName": "html",
+2018-08-15T03:14:20.648548100Z          "nodeId": 10,
+2018-08-15T03:14:20.648552200Z          "nodeName": "HTML",
+2018-08-15T03:14:20.648556200Z          "nodeType": 1,
+2018-08-15T03:14:20.648560000Z          "nodeValue": "",
+2018-08-15T03:14:20.648563900Z          "parentId": 9
+2018-08-15T03:14:20.648567600Z       } ],
+2018-08-15T03:14:20.648571400Z       "documentURL": "data:,",
+2018-08-15T03:14:20.648575300Z       "localName": "",
+2018-08-15T03:14:20.648579000Z       "nodeId": 9,
+2018-08-15T03:14:20.648582900Z       "nodeName": "#document",
+2018-08-15T03:14:20.648586800Z       "nodeType": 9,
+2018-08-15T03:14:20.648595800Z       "nodeValue": "",
+2018-08-15T03:14:20.648600000Z       "xmlVersion": ""
+2018-08-15T03:14:20.648603900Z    }
+2018-08-15T03:14:20.648607600Z }
+2018-08-15T03:14:20.648611300Z [1534302860.648][DEBUG]: DEVTOOLS COMMAND Page.enable (id=9) {
+2018-08-15T03:14:20.648615200Z 
+2018-08-15T03:14:20.648618800Z }
+2018-08-15T03:14:20.656573100Z [1534302860.656][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=9) {
+2018-08-15T03:14:20.656598100Z 
+2018-08-15T03:14:20.656620900Z }
+2018-08-15T03:14:20.656627300Z [1534302860.656][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=10) {
+2018-08-15T03:14:20.656631700Z 
+2018-08-15T03:14:20.656635600Z }
+2018-08-15T03:14:20.657271200Z [1534302860.657][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=10) {
+2018-08-15T03:14:20.657280200Z 
+2018-08-15T03:14:20.657284500Z }
+2018-08-15T03:14:20.659728100Z [1534302860.660][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=11) {
+2018-08-15T03:14:20.659738000Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2018-08-15T03:14:20.659743500Z    "returnByValue": true
+2018-08-15T03:14:20.659747700Z }
+2018-08-15T03:14:20.663438000Z [1534302860.663][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=11) {
+2018-08-15T03:14:20.663451600Z    "result": {
+2018-08-15T03:14:20.663456200Z       "type": "object",
+2018-08-15T03:14:20.663460400Z       "value": {
+2018-08-15T03:14:20.663464400Z          "status": 0,
+2018-08-15T03:14:20.663468400Z          "value": 1
+2018-08-15T03:14:20.663472400Z       }
+2018-08-15T03:14:20.663476400Z    }
+2018-08-15T03:14:20.663480300Z }
+2018-08-15T03:14:20.663545500Z [1534302860.663][INFO]: RESPONSE InitSession {
+2018-08-15T03:14:20.663552900Z    "acceptInsecureCerts": false,
+2018-08-15T03:14:20.663557300Z    "acceptSslCerts": false,
+2018-08-15T03:14:20.663561400Z    "applicationCacheEnabled": false,
+2018-08-15T03:14:20.663565500Z    "browserConnectionEnabled": false,
+2018-08-15T03:14:20.663569600Z    "browserName": "chrome",
+2018-08-15T03:14:20.663573600Z    "chrome": {
+2018-08-15T03:14:20.663585300Z       "chromedriverVersion": "2.39.562737 (dba483cee6a5f15e2e2d73df16968ab10b38a2bf)",
+2018-08-15T03:14:20.663590400Z       "userDataDir": "/tmp/.org.chromium.Chromium.QNSK6t"
+2018-08-15T03:14:20.663594700Z    },
+2018-08-15T03:14:20.663598900Z    "cssSelectorsEnabled": true,
+2018-08-15T03:14:20.663603100Z    "databaseEnabled": false,
+2018-08-15T03:14:20.663615400Z    "handlesAlerts": true,
+2018-08-15T03:14:20.663619700Z    "hasTouchScreen": false,
+2018-08-15T03:14:20.663623500Z    "javascriptEnabled": true,
+2018-08-15T03:14:20.663627300Z    "locationContextEnabled": true,
+2018-08-15T03:14:20.663631100Z    "mobileEmulationEnabled": false,
+2018-08-15T03:14:20.663634900Z    "nativeEvents": true,
+2018-08-15T03:14:20.663638600Z    "networkConnectionEnabled": false,
+2018-08-15T03:14:20.663642400Z    "pageLoadStrategy": "normal",
+2018-08-15T03:14:20.663646200Z    "platform": "Linux",
+2018-08-15T03:14:20.663650000Z    "rotatable": false,
+2018-08-15T03:14:20.663653700Z    "setWindowRect": true,
+2018-08-15T03:14:20.663657500Z    "~~~": "..."
+2018-08-15T03:14:20.663661300Z }
+2018-08-15T03:14:23.720283200Z [1534302863.720][INFO]: COMMAND Navigate {
+2018-08-15T03:14:23.720356400Z    "url": "http://duckduckgo.com/"
+2018-08-15T03:14:23.720377000Z }
+2018-08-15T03:14:23.720388200Z [1534302863.720][INFO]: Waiting for pending navigations...
+2018-08-15T03:14:23.720398100Z [1534302863.720][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=12) {
+2018-08-15T03:14:23.720407800Z    "expression": "1"
+2018-08-15T03:14:23.720417400Z }
+2018-08-15T03:14:23.722738500Z [1534302863.722][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=12) {
+2018-08-15T03:14:23.722761600Z    "result": {
+2018-08-15T03:14:23.722772400Z       "description": "1",
+2018-08-15T03:14:23.722782400Z       "type": "number",
+2018-08-15T03:14:23.722792100Z       "value": 1
+2018-08-15T03:14:23.722801500Z    }
+2018-08-15T03:14:23.722810600Z }
+2018-08-15T03:14:23.722819800Z [1534302863.723][INFO]: Done waiting for pending navigations. Status: ok
+2018-08-15T03:14:23.722887300Z [1534302863.723][DEBUG]: DEVTOOLS COMMAND Page.navigate (id=13) {
+2018-08-15T03:14:23.722902500Z    "url": "http://duckduckgo.com/"
+2018-08-15T03:14:23.722912900Z }
+2018-08-15T03:14:25.125855200Z [1534302865.126][DEBUG]: DEVTOOLS RESPONSE Page.navigate (id=13) {
+2018-08-15T03:14:25.125903100Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:25.125915200Z    "loaderId": "3576C2F213FF4C2217F6D3F54D9DBCF8"
+2018-08-15T03:14:25.125925400Z }
+2018-08-15T03:14:25.126106900Z [1534302865.126][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=14) {
+2018-08-15T03:14:25.126125800Z    "expression": "document.URL"
+2018-08-15T03:14:25.126136400Z }
+2018-08-15T03:14:25.163779300Z [1534302865.164][DEBUG]: DEVTOOLS EVENT Runtime.executionContextsCleared {
+2018-08-15T03:14:25.163846000Z 
+2018-08-15T03:14:25.163863000Z }
+2018-08-15T03:14:25.164931400Z [1534302865.165][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+2018-08-15T03:14:25.164942500Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0"
+2018-08-15T03:14:25.164947300Z }
+2018-08-15T03:14:25.184579700Z [1534302865.184][DEBUG]: DEVTOOLS EVENT Runtime.executionContextsCleared {
+2018-08-15T03:14:25.184600100Z 
+2018-08-15T03:14:25.184620300Z }
+2018-08-15T03:14:25.184626400Z [1534302865.184][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+2018-08-15T03:14:25.184630700Z    "frame": {
+2018-08-15T03:14:25.184634800Z       "id": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:25.184638800Z       "loaderId": "3576C2F213FF4C2217F6D3F54D9DBCF8",
+2018-08-15T03:14:25.184642900Z       "mimeType": "text/html",
+2018-08-15T03:14:25.184646800Z       "securityOrigin": "https://duckduckgo.com",
+2018-08-15T03:14:25.184650800Z       "url": "https://duckduckgo.com/"
+2018-08-15T03:14:25.184654700Z    }
+2018-08-15T03:14:25.184658400Z }
+2018-08-15T03:14:25.184662000Z [1534302865.184][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+2018-08-15T03:14:25.184666000Z    "context": {
+2018-08-15T03:14:25.184670000Z       "auxData": {
+2018-08-15T03:14:25.184673800Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:25.184677800Z          "isDefault": true
+2018-08-15T03:14:25.184681700Z       },
+2018-08-15T03:14:25.184685500Z       "id": 1,
+2018-08-15T03:14:25.184689200Z       "name": "",
+2018-08-15T03:14:25.184693100Z       "origin": "https://duckduckgo.com"
+2018-08-15T03:14:25.184697000Z    }
+2018-08-15T03:14:25.184700700Z }
+2018-08-15T03:14:25.184704400Z [1534302865.184][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+2018-08-15T03:14:25.184708300Z 
+2018-08-15T03:14:25.184712000Z }
+2018-08-15T03:14:25.184716300Z [1534302865.184][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=15) {
+2018-08-15T03:14:25.184729100Z 
+2018-08-15T03:14:25.184733000Z }
+2018-08-15T03:14:25.192468900Z [1534302865.192][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=14) {
+2018-08-15T03:14:25.192508800Z    "result": {
+2018-08-15T03:14:25.192514800Z       "type": "string",
+2018-08-15T03:14:25.192519200Z       "value": "https://duckduckgo.com/"
+2018-08-15T03:14:25.192523300Z    }
+2018-08-15T03:14:25.192527000Z }
+2018-08-15T03:14:25.193166100Z [1534302865.193][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=15) {
+2018-08-15T03:14:25.193177700Z    "root": {
+2018-08-15T03:14:25.193182700Z       "backendNodeId": 1,
+2018-08-15T03:14:25.193221700Z       "baseURL": "https://duckduckgo.com/",
+2018-08-15T03:14:25.193227500Z       "childNodeCount": 8,
+2018-08-15T03:14:25.193231600Z       "children": [ {
+2018-08-15T03:14:25.193235500Z          "backendNodeId": 2,
+2018-08-15T03:14:25.193239400Z          "localName": "",
+2018-08-15T03:14:25.193243300Z          "nodeId": 2,
+2018-08-15T03:14:25.193247000Z          "nodeName": "html",
+2018-08-15T03:14:25.193251000Z          "nodeType": 10,
+2018-08-15T03:14:25.193254800Z          "nodeValue": "",
+2018-08-15T03:14:25.193258700Z          "parentId": 1,
+2018-08-15T03:14:25.193262500Z          "publicId": "",
+2018-08-15T03:14:25.193266300Z          "systemId": ""
+2018-08-15T03:14:25.193270100Z       }, {
+2018-08-15T03:14:25.193273800Z          "backendNodeId": 3,
+2018-08-15T03:14:25.193277600Z          "localName": "",
+2018-08-15T03:14:25.193281400Z          "nodeId": 3,
+2018-08-15T03:14:25.193285100Z          "nodeName": "#comment",
+2018-08-15T03:14:25.193288900Z          "nodeType": 8,
+2018-08-15T03:14:25.193292700Z          "nodeValue": "[if IEMobile 7 ]> \u003Chtml lang=\"en_US\" class=\"no-js iem7\"> \u003C![endif]",
+2018-08-15T03:14:25.193876300Z          "parentId": 1
+2018-08-15T03:14:25.193881000Z       }, {
+2018-08-15T03:14:25.193885100Z          "backendNodeId": 4,
+2018-08-15T03:14:25.193898100Z          "localName": "",
+2018-08-15T03:14:25.193902200Z          "nodeId": 4,
+2018-08-15T03:14:25.193906300Z          "nodeName": "#comment",
+2018-08-15T03:14:25.193910300Z          "nodeType": 8,
+2018-08-15T03:14:25.193920400Z          "nodeValue": "[if lt IE 7]> \u003Chtml class=\"ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7 no-js\" lang=\"en_US\"> \u003C![endif]",
+2018-08-15T03:14:25.193934400Z          "parentId": 1
+2018-08-15T03:14:25.193938500Z       }, {
+2018-08-15T03:14:25.193942200Z          "backendNodeId": 5,
+2018-08-15T03:14:25.193946000Z          "localName": "",
+2018-08-15T03:14:25.193949800Z          "nodeId": 5,
+2018-08-15T03:14:25.193953500Z          "nodeName": "#comment",
+2018-08-15T03:14:25.193957400Z          "nodeType": 8,
+2018-08-15T03:14:25.193961200Z          "nodeValue": "[if IE 7]>    \u003Chtml class=\"ie7 lt-ie10 lt-ie9 lt-ie8 no-js\" lang=\"en_US\"> \u003C![endif]",
+2018-08-15T03:14:25.193965600Z          "parentId": 1
+2018-08-15T03:14:25.193969400Z       }, {
+2018-08-15T03:14:25.193973000Z          "backendNodeId": 6,
+2018-08-15T03:14:25.193977000Z          "localName": "",
+2018-08-15T03:14:25.193980800Z          "nodeId": 6,
+2018-08-15T03:14:25.193998900Z          "nodeName": "#comment",
+2018-08-15T03:14:25.194003300Z          "nodeType": 8,
+2018-08-15T03:14:25.194016000Z          "nodeValue": "[if IE 8]>    \u003Chtml class=\"ie8 lt-ie10 lt-ie9 no-js\" lang=\"en_US\"> \u003C![endif]",
+2018-08-15T03:14:25.194020500Z          "parentId": 1
+2018-08-15T03:14:25.194024200Z       }, {
+2018-08-15T03:14:25.194027900Z          "backendNodeId": 7,
+2018-08-15T03:14:25.194032100Z          "localName": "",
+2018-08-15T03:14:25.194036000Z          "nodeId": 7,
+2018-08-15T03:14:25.194039800Z          "nodeName": "#comment",
+2018-08-15T03:14:25.194043500Z          "nodeType": 8,
+2018-08-15T03:14:25.194047200Z          "nodeValue": "[if IE 9]>    \u003Chtml class=\"ie9 lt-ie10 no-js\" lang=\"en_US\"> \u003C![endif]",
+2018-08-15T03:14:25.194051400Z          "parentId": 1
+2018-08-15T03:14:25.194055100Z       }, {
+2018-08-15T03:14:25.194058600Z          "backendNodeId": 8,
+2018-08-15T03:14:25.194062300Z          "localName": "",
+2018-08-15T03:14:25.194066000Z          "nodeId": 8,
+2018-08-15T03:14:25.194069600Z          "nodeName": "#comment",
+2018-08-15T03:14:25.194073400Z          "nodeType": 8,
+2018-08-15T03:14:25.194078100Z          "nodeValue": "[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]>\u003C!",
+2018-08-15T03:14:25.194082200Z          "parentId": 1
+2018-08-15T03:14:25.194085900Z       }, {
+2018-08-15T03:14:25.194089500Z          "attributes": [ "class", "no-js", "lang", "en_US" ],
+2018-08-15T03:14:25.194093600Z          "backendNodeId": 9,
+2018-08-15T03:14:25.194106400Z          "childNodeCount": 3,
+2018-08-15T03:14:25.194119200Z          "children": [ {
+2018-08-15T03:14:25.194123000Z             "backendNodeId": 10,
+2018-08-15T03:14:25.194126800Z             "localName": "",
+2018-08-15T03:14:25.194130500Z             "nodeId": 10,
+2018-08-15T03:14:25.194134200Z             "nodeName": "#comment",
+2018-08-15T03:14:25.194138000Z             "nodeType": 8,
+2018-08-15T03:14:25.194141700Z             "nodeValue": "\u003C![endif]",
+2018-08-15T03:14:25.194145500Z             "parentId": 9
+2018-08-15T03:14:25.194149200Z          }, {
+2018-08-15T03:14:25.194152800Z             "attributes": [  ],
+2018-08-15T03:14:25.194156500Z             "backendNodeId": 11,
+2018-08-15T03:14:25.194160200Z             "childNodeCount": 23,
+2018-08-15T03:14:25.194163900Z             "localName": "head",
+2018-08-15T03:14:25.194167700Z             "nodeId": 11,
+2018-08-15T03:14:25.194171400Z             "nodeName": "HEAD",
+2018-08-15T03:14:25.194178000Z             "nodeType": 1,
+2018-08-15T03:14:25.194182000Z             "nodeValue": "",
+2018-08-15T03:14:25.194185700Z             "parentId": 9
+2018-08-15T03:14:25.194189400Z          }, {
+2018-08-15T03:14:25.194193000Z             "attributes": [ "id", "pg-index", "class", "page-index body--home" ],
+2018-08-15T03:14:25.194197100Z             "backendNodeId": 12,
+2018-08-15T03:14:25.194200800Z             "childNodeCount": 1,
+2018-08-15T03:14:25.194204500Z             "localName": "body",
+2018-08-15T03:14:25.194208100Z             "nodeId": 12,
+2018-08-15T03:14:25.194211800Z             "nodeName": "BODY",
+2018-08-15T03:14:25.194215500Z             "nodeType": 1,
+2018-08-15T03:14:25.194219200Z             "nodeValue": "",
+2018-08-15T03:14:25.194232300Z             "parentId": 9
+2018-08-15T03:14:25.194236000Z          } ],
+2018-08-15T03:14:25.194239700Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:25.194252300Z          "localName": "html",
+2018-08-15T03:14:25.194256400Z          "nodeId": 9,
+2018-08-15T03:14:25.194260000Z          "nodeName": "HTML",
+2018-08-15T03:14:25.194263800Z          "nodeType": 1,
+2018-08-15T03:14:25.194267400Z          "nodeValue": "",
+2018-08-15T03:14:25.194271000Z          "parentId": 1
+2018-08-15T03:14:25.194274600Z       } ],
+2018-08-15T03:14:25.194278300Z       "documentURL": "https://duckduckgo.com/",
+2018-08-15T03:14:25.194282000Z       "localName": "",
+2018-08-15T03:14:25.194285800Z       "nodeId": 1,
+2018-08-15T03:14:25.194289500Z       "nodeName": "#document",
+2018-08-15T03:14:25.194293200Z       "nodeType": 9,
+2018-08-15T03:14:25.194296900Z       "nodeValue": "",
+2018-08-15T03:14:25.194300600Z       "xmlVersion": ""
+2018-08-15T03:14:25.194304300Z    }
+2018-08-15T03:14:25.194307900Z }
+2018-08-15T03:14:25.194311700Z [1534302865.193][INFO]: Waiting for pending navigations...
+2018-08-15T03:14:25.194324200Z [1534302865.193][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=16) {
+2018-08-15T03:14:25.194328400Z    "expression": "1"
+2018-08-15T03:14:25.194349100Z }
+2018-08-15T03:14:25.195158500Z [1534302865.195][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=16) {
+2018-08-15T03:14:25.195168100Z    "result": {
+2018-08-15T03:14:25.195172800Z       "description": "1",
+2018-08-15T03:14:25.195177100Z       "type": "number",
+2018-08-15T03:14:25.195181400Z       "value": 1
+2018-08-15T03:14:25.195185400Z    }
+2018-08-15T03:14:25.195209900Z }
+2018-08-15T03:14:25.763949000Z [1534302865.764][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:25.763971000Z    "childNodeCount": 2,
+2018-08-15T03:14:25.763977600Z    "nodeId": 12
+2018-08-15T03:14:25.763983900Z }
+2018-08-15T03:14:25.763989200Z [1534302865.764][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=17) {
+2018-08-15T03:14:25.763994900Z    "expression": "1"
+2018-08-15T03:14:25.764000300Z }
+2018-08-15T03:14:25.764313200Z [1534302865.764][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:25.764346800Z    "childNodeCount": 3,
+2018-08-15T03:14:25.764357500Z    "nodeId": 12
+2018-08-15T03:14:25.764363600Z }
+2018-08-15T03:14:25.776406400Z [1534302865.776][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=17) {
+2018-08-15T03:14:25.776435800Z    "result": {
+2018-08-15T03:14:25.776442400Z       "description": "1",
+2018-08-15T03:14:25.776448200Z       "type": "number",
+2018-08-15T03:14:25.776453900Z       "value": 1
+2018-08-15T03:14:25.776459300Z    }
+2018-08-15T03:14:25.776464500Z }
+2018-08-15T03:14:26.027244400Z [1534302866.027][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.027264600Z    "childNodeCount": 4,
+2018-08-15T03:14:26.027269700Z    "nodeId": 12
+2018-08-15T03:14:26.027274000Z }
+2018-08-15T03:14:26.027278600Z [1534302866.027][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=18) {
+2018-08-15T03:14:26.027282900Z    "expression": "1"
+2018-08-15T03:14:26.027287100Z }
+2018-08-15T03:14:26.027291100Z [1534302866.027][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.027295600Z    "childNodeCount": 3,
+2018-08-15T03:14:26.027299600Z    "nodeId": 12
+2018-08-15T03:14:26.027303600Z }
+2018-08-15T03:14:26.027307500Z [1534302866.027][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.027311700Z    "childNodeCount": 4,
+2018-08-15T03:14:26.027315700Z    "nodeId": 12
+2018-08-15T03:14:26.027319700Z }
+2018-08-15T03:14:26.027323900Z [1534302866.027][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.027328100Z    "childNodeCount": 3,
+2018-08-15T03:14:26.027332000Z    "nodeId": 12
+2018-08-15T03:14:26.027336000Z }
+2018-08-15T03:14:26.027340100Z [1534302866.027][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:26.027344100Z    "name": "class",
+2018-08-15T03:14:26.027348200Z    "nodeId": 9,
+2018-08-15T03:14:26.027352100Z    "value": " js no-touch opacity csstransforms3d csstransitions svg"
+2018-08-15T03:14:26.027364900Z }
+2018-08-15T03:14:26.027369200Z [1534302866.027][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:26.027373300Z    "name": "class",
+2018-08-15T03:14:26.027377400Z    "nodeId": 9,
+2018-08-15T03:14:26.027381200Z    "value": " js no-touch opacity csstransforms3d csstransitions svg cssfilters"
+2018-08-15T03:14:26.027385500Z }
+2018-08-15T03:14:26.027389300Z [1534302866.027][DEBUG]: DEVTOOLS EVENT DOM.childNodeInserted {
+2018-08-15T03:14:26.027393500Z    "node": {
+2018-08-15T03:14:26.027397500Z       "attributes": [  ],
+2018-08-15T03:14:26.027401400Z       "backendNodeId": 13,
+2018-08-15T03:14:26.027405400Z       "childNodeCount": 0,
+2018-08-15T03:14:26.027409400Z       "localName": "div",
+2018-08-15T03:14:26.027413400Z       "nodeId": 13,
+2018-08-15T03:14:26.027417400Z       "nodeName": "DIV",
+2018-08-15T03:14:26.027421400Z       "nodeType": 1,
+2018-08-15T03:14:26.027425300Z       "nodeValue": ""
+2018-08-15T03:14:26.027429200Z    },
+2018-08-15T03:14:26.027433100Z    "parentNodeId": 9,
+2018-08-15T03:14:26.027437000Z    "previousNodeId": 12
+2018-08-15T03:14:26.027440900Z }
+2018-08-15T03:14:26.027937200Z [1534302866.028][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:26.027950700Z    "name": "id",
+2018-08-15T03:14:26.027956200Z    "nodeId": 13,
+2018-08-15T03:14:26.027960600Z    "value": "sizzle-1534302865993"
+2018-08-15T03:14:26.027964900Z }
+2018-08-15T03:14:26.027969000Z [1534302866.028][DEBUG]: DEVTOOLS EVENT DOM.childNodeRemoved {
+2018-08-15T03:14:26.027991100Z    "nodeId": 13,
+2018-08-15T03:14:26.027995400Z    "parentNodeId": 9
+2018-08-15T03:14:26.027999600Z }
+2018-08-15T03:14:26.028003800Z [1534302866.028][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.028008000Z    "childNodeCount": 4,
+2018-08-15T03:14:26.028012100Z    "nodeId": 12
+2018-08-15T03:14:26.028016000Z }
+2018-08-15T03:14:26.028019900Z [1534302866.028][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.028023900Z    "childNodeCount": 5,
+2018-08-15T03:14:26.028027800Z    "nodeId": 12
+2018-08-15T03:14:26.028031800Z }
+2018-08-15T03:14:26.032634900Z [1534302866.033][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=18) {
+2018-08-15T03:14:26.032655300Z    "result": {
+2018-08-15T03:14:26.032660200Z       "description": "1",
+2018-08-15T03:14:26.032664600Z       "type": "number",
+2018-08-15T03:14:26.032668800Z       "value": 1
+2018-08-15T03:14:26.032689600Z    }
+2018-08-15T03:14:26.032705600Z }
+2018-08-15T03:14:26.391776300Z [1534302866.392][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.391801200Z    "childNodeCount": 6,
+2018-08-15T03:14:26.391822200Z    "nodeId": 12
+2018-08-15T03:14:26.391826800Z }
+2018-08-15T03:14:26.391830900Z [1534302866.392][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=19) {
+2018-08-15T03:14:26.391835000Z    "expression": "1"
+2018-08-15T03:14:26.391839100Z }
+2018-08-15T03:14:26.391940900Z [1534302866.392][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.391952200Z    "childNodeCount": 7,
+2018-08-15T03:14:26.391957300Z    "nodeId": 12
+2018-08-15T03:14:26.391967300Z }
+2018-08-15T03:14:26.391971500Z [1534302866.392][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.391975600Z    "childNodeCount": 8,
+2018-08-15T03:14:26.391979600Z    "nodeId": 12
+2018-08-15T03:14:26.391983500Z }
+2018-08-15T03:14:26.392117400Z [1534302866.392][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.392125500Z    "childNodeCount": 24,
+2018-08-15T03:14:26.392129900Z    "nodeId": 11
+2018-08-15T03:14:26.392133900Z }
+2018-08-15T03:14:26.392556900Z [1534302866.393][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.392565600Z    "childNodeCount": 9,
+2018-08-15T03:14:26.392570100Z    "nodeId": 12
+2018-08-15T03:14:26.392574100Z }
+2018-08-15T03:14:26.392890500Z [1534302866.393][DEBUG]: DEVTOOLS EVENT Page.frameAttached {
+2018-08-15T03:14:26.392899400Z    "frameId": "42B19F548553FD17255AE5133446C667",
+2018-08-15T03:14:26.392904000Z    "parentFrameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:26.392908400Z    "stack": {
+2018-08-15T03:14:26.392912500Z       "callFrames": [ {
+2018-08-15T03:14:26.392916600Z          "columnNumber": 73613,
+2018-08-15T03:14:26.392920600Z          "functionName": "_initializePage",
+2018-08-15T03:14:26.392924700Z          "lineNumber": 0,
+2018-08-15T03:14:26.392928700Z          "scriptId": "25",
+2018-08-15T03:14:26.392947100Z          "url": "https://duckduckgo.com/d2470.js"
+2018-08-15T03:14:26.392952200Z       }, {
+2018-08-15T03:14:26.392959400Z          "columnNumber": 68316,
+2018-08-15T03:14:26.392963500Z          "functionName": "ready",
+2018-08-15T03:14:26.392967600Z          "lineNumber": 0,
+2018-08-15T03:14:26.392971500Z          "scriptId": "25",
+2018-08-15T03:14:26.392975500Z          "url": "https://duckduckgo.com/d2470.js"
+2018-08-15T03:14:26.392979400Z       }, {
+2018-08-15T03:14:26.392995200Z          "columnNumber": 77137,
+2018-08-15T03:14:26.392999400Z          "functionName": "ready",
+2018-08-15T03:14:26.393003200Z          "lineNumber": 0,
+2018-08-15T03:14:26.393006900Z          "scriptId": "25",
+2018-08-15T03:14:26.393010600Z          "url": "https://duckduckgo.com/d2470.js"
+2018-08-15T03:14:26.393014300Z       }, {
+2018-08-15T03:14:26.393017800Z          "columnNumber": 13587,
+2018-08-15T03:14:26.393021500Z          "functionName": "",
+2018-08-15T03:14:26.393025100Z          "lineNumber": 0,
+2018-08-15T03:14:26.393028700Z          "scriptId": "24",
+2018-08-15T03:14:26.393032400Z          "url": "https://duckduckgo.com/util/u238.js"
+2018-08-15T03:14:26.393036100Z       }, {
+2018-08-15T03:14:26.393039700Z          "columnNumber": 20851,
+2018-08-15T03:14:26.393043300Z          "functionName": "b3",
+2018-08-15T03:14:26.393047000Z          "lineNumber": 25,
+2018-08-15T03:14:26.393050700Z          "scriptId": "23",
+2018-08-15T03:14:26.393054300Z          "url": "https://duckduckgo.com/lib/l110.js"
+2018-08-15T03:14:26.393058000Z       }, {
+2018-08-15T03:14:26.393061600Z          "columnNumber": 21845,
+2018-08-15T03:14:26.393065200Z          "functionName": "fireWith",
+2018-08-15T03:14:26.393069200Z          "lineNumber": 25,
+2018-08-15T03:14:26.393072900Z          "scriptId": "23",
+2018-08-15T03:14:26.393076700Z          "url": "https://duckduckgo.com/lib/l110.js"
+2018-08-15T03:14:26.393080400Z       }, {
+2018-08-15T03:14:26.393084000Z          "columnNumber": 3702,
+2018-08-15T03:14:26.393087700Z          "functionName": "ready",
+2018-08-15T03:14:26.393091400Z          "lineNumber": 14,
+2018-08-15T03:14:26.393095100Z          "scriptId": "23",
+2018-08-15T03:14:26.393098700Z          "url": "https://duckduckgo.com/lib/l110.js"
+2018-08-15T03:14:26.393102600Z       }, {
+2018-08-15T03:14:26.393106200Z          "columnNumber": 756,
+2018-08-15T03:14:26.393109800Z          "functionName": "bW",
+2018-08-15T03:14:26.393113500Z          "lineNumber": 14,
+2018-08-15T03:14:26.393117100Z          "scriptId": "23",
+2018-08-15T03:14:26.393120800Z          "url": "https://duckduckgo.com/lib/l110.js"
+2018-08-15T03:14:26.393124500Z       } ]
+2018-08-15T03:14:26.393128100Z    }
+2018-08-15T03:14:26.393131700Z }
+2018-08-15T03:14:26.609521800Z [1534302866.609][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+2018-08-15T03:14:26.609543600Z    "frameId": "42B19F548553FD17255AE5133446C667"
+2018-08-15T03:14:26.609620600Z }
+2018-08-15T03:14:26.609811600Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:26.609820700Z    "name": "class",
+2018-08-15T03:14:26.609825500Z    "nodeId": 9,
+2018-08-15T03:14:26.609829800Z    "value": "js no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device"
+2018-08-15T03:14:26.609834200Z }
+2018-08-15T03:14:26.609963600Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:26.609971900Z    "name": "class",
+2018-08-15T03:14:26.609976500Z    "nodeId": 9,
+2018-08-15T03:14:26.609980800Z    "value": "js no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device full-urls"
+2018-08-15T03:14:26.609985200Z }
+2018-08-15T03:14:26.609989200Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.610014300Z    "childNodeCount": 10,
+2018-08-15T03:14:26.610018900Z    "nodeId": 12
+2018-08-15T03:14:26.610022900Z }
+2018-08-15T03:14:26.610026800Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.610031000Z    "childNodeCount": 9,
+2018-08-15T03:14:26.610064400Z    "nodeId": 12
+2018-08-15T03:14:26.610071100Z }
+2018-08-15T03:14:26.610100600Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:26.610107000Z    "name": "class",
+2018-08-15T03:14:26.610111300Z    "nodeId": 9,
+2018-08-15T03:14:26.610115300Z    "value": "js no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device full-urls has-search-focus"
+2018-08-15T03:14:26.610119700Z }
+2018-08-15T03:14:26.610124100Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:26.610128300Z    "name": "class",
+2018-08-15T03:14:26.610148500Z    "nodeId": 12,
+2018-08-15T03:14:26.610154300Z    "value": "page-index body--home body--onboarding"
+2018-08-15T03:14:26.610158600Z }
+2018-08-15T03:14:26.610162500Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.610166600Z    "childNodeCount": 10,
+2018-08-15T03:14:26.610170600Z    "nodeId": 12
+2018-08-15T03:14:26.610174500Z }
+2018-08-15T03:14:26.610178400Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:26.610182400Z    "childNodeCount": 9,
+2018-08-15T03:14:26.610186300Z    "nodeId": 12
+2018-08-15T03:14:26.610190200Z }
+2018-08-15T03:14:26.610194100Z [1534302866.610][DEBUG]: DEVTOOLS EVENT Page.domContentEventFired {
+2018-08-15T03:14:26.610198100Z    "timestamp": 53544.371457
+2018-08-15T03:14:26.610202100Z }
+2018-08-15T03:14:26.610205900Z [1534302866.610][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+2018-08-15T03:14:26.610242500Z 
+2018-08-15T03:14:26.610248400Z }
+2018-08-15T03:14:26.610252400Z [1534302866.610][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=20) {
+2018-08-15T03:14:26.610256500Z 
+2018-08-15T03:14:26.610260400Z }
+2018-08-15T03:14:26.646698600Z [1534302866.647][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=19) {
+2018-08-15T03:14:26.646723800Z    "result": {
+2018-08-15T03:14:26.646728700Z       "description": "1",
+2018-08-15T03:14:26.646732900Z       "type": "number",
+2018-08-15T03:14:26.646737000Z       "value": 1
+2018-08-15T03:14:26.646741100Z    }
+2018-08-15T03:14:26.646744800Z }
+2018-08-15T03:14:26.760544900Z [1534302866.674][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=20) {
+2018-08-15T03:14:26.760574500Z    "root": {
+2018-08-15T03:14:26.760581500Z       "backendNodeId": 1,
+2018-08-15T03:14:26.760586000Z       "baseURL": "https://duckduckgo.com/",
+2018-08-15T03:14:26.760590400Z       "childNodeCount": 8,
+2018-08-15T03:14:26.760594900Z       "children": [ {
+2018-08-15T03:14:26.760599000Z          "backendNodeId": 2,
+2018-08-15T03:14:26.760603000Z          "localName": "",
+2018-08-15T03:14:26.760607100Z          "nodeId": 15,
+2018-08-15T03:14:26.760611200Z          "nodeName": "html",
+2018-08-15T03:14:26.760615300Z          "nodeType": 10,
+2018-08-15T03:14:26.760623400Z          "nodeValue": "",
+2018-08-15T03:14:26.760648200Z          "parentId": 14,
+2018-08-15T03:14:26.760652500Z          "publicId": "",
+2018-08-15T03:14:26.760656800Z          "systemId": ""
+2018-08-15T03:14:26.760661000Z       }, {
+2018-08-15T03:14:26.760665200Z          "backendNodeId": 3,
+2018-08-15T03:14:26.760669400Z          "localName": "",
+2018-08-15T03:14:26.760673500Z          "nodeId": 16,
+2018-08-15T03:14:26.760677500Z          "nodeName": "#comment",
+2018-08-15T03:14:26.760681700Z          "nodeType": 8,
+2018-08-15T03:14:26.760685800Z          "nodeValue": "[if IEMobile 7 ]> \u003Chtml lang=\"en_US\" class=\"no-js iem7\"> \u003C![endif]",
+2018-08-15T03:14:26.760690800Z          "parentId": 14
+2018-08-15T03:14:26.760695000Z       }, {
+2018-08-15T03:14:26.760700900Z          "backendNodeId": 4,
+2018-08-15T03:14:26.760705000Z          "localName": "",
+2018-08-15T03:14:26.760709100Z          "nodeId": 17,
+2018-08-15T03:14:26.760713300Z          "nodeName": "#comment",
+2018-08-15T03:14:26.760717400Z          "nodeType": 8,
+2018-08-15T03:14:26.765230300Z          "nodeValue": "[if lt IE 7]> \u003Chtml class=\"ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7 no-js\" lang=\"en_US\"> \u003C![endif]",
+2018-08-15T03:14:26.765246400Z          "parentId": 14
+2018-08-15T03:14:26.765251400Z       }, {
+2018-08-15T03:14:26.765255600Z          "backendNodeId": 5,
+2018-08-15T03:14:26.765259800Z          "localName": "",
+2018-08-15T03:14:26.765264000Z          "nodeId": 18,
+2018-08-15T03:14:26.765268200Z          "nodeName": "#comment",
+2018-08-15T03:14:26.765272400Z          "nodeType": 8,
+2018-08-15T03:14:26.765279200Z          "nodeValue": "[if IE 7]>    \u003Chtml class=\"ie7 lt-ie10 lt-ie9 lt-ie8 no-js\" lang=\"en_US\"> \u003C![endif]",
+2018-08-15T03:14:26.765283900Z          "parentId": 14
+2018-08-15T03:14:26.765288100Z       }, {
+2018-08-15T03:14:26.765292100Z          "backendNodeId": 6,
+2018-08-15T03:14:26.765296000Z          "localName": "",
+2018-08-15T03:14:26.765300100Z          "nodeId": 19,
+2018-08-15T03:14:26.765304100Z          "nodeName": "#comment",
+2018-08-15T03:14:26.765308100Z          "nodeType": 8,
+2018-08-15T03:14:26.765312000Z          "nodeValue": "[if IE 8]>    \u003Chtml class=\"ie8 lt-ie10 lt-ie9 no-js\" lang=\"en_US\"> \u003C![endif]",
+2018-08-15T03:14:26.765316500Z          "parentId": 14
+2018-08-15T03:14:26.765320400Z       }, {
+2018-08-15T03:14:26.765324200Z          "backendNodeId": 7,
+2018-08-15T03:14:26.765329800Z          "localName": "",
+2018-08-15T03:14:26.765333800Z          "nodeId": 20,
+2018-08-15T03:14:26.765337800Z          "nodeName": "#comment",
+2018-08-15T03:14:26.765341900Z          "nodeType": 8,
+2018-08-15T03:14:26.765346000Z          "nodeValue": "[if IE 9]>    \u003Chtml class=\"ie9 lt-ie10 no-js\" lang=\"en_US\"> \u003C![endif]",
+2018-08-15T03:14:26.765350500Z          "parentId": 14
+2018-08-15T03:14:26.765354500Z       }, {
+2018-08-15T03:14:26.765358300Z          "backendNodeId": 8,
+2018-08-15T03:14:26.765362300Z          "localName": "",
+2018-08-15T03:14:26.765366200Z          "nodeId": 21,
+2018-08-15T03:14:26.765370200Z          "nodeName": "#comment",
+2018-08-15T03:14:26.765374100Z          "nodeType": 8,
+2018-08-15T03:14:26.766570400Z          "nodeValue": "[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]>\u003C!",
+2018-08-15T03:14:26.766580700Z          "parentId": 14
+2018-08-15T03:14:26.766585300Z       }, {
+2018-08-15T03:14:26.766589400Z          "attributes": [ "class", "js no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device full-urls has-search-focus", "lang", "en_US" ],
+2018-08-15T03:14:26.766594300Z          "backendNodeId": 9,
+2018-08-15T03:14:26.766603000Z          "childNodeCount": 3,
+2018-08-15T03:14:26.766607500Z          "children": [ {
+2018-08-15T03:14:26.766611600Z             "backendNodeId": 10,
+2018-08-15T03:14:26.766615700Z             "localName": "",
+2018-08-15T03:14:26.766619700Z             "nodeId": 23,
+2018-08-15T03:14:26.766623700Z             "nodeName": "#comment",
+2018-08-15T03:14:26.766627800Z             "nodeType": 8,
+2018-08-15T03:14:26.766641600Z             "nodeValue": "\u003C![endif]",
+2018-08-15T03:14:26.766648700Z             "parentId": 22
+2018-08-15T03:14:26.766653000Z          }, {
+2018-08-15T03:14:26.766657200Z             "attributes": [  ],
+2018-08-15T03:14:26.766661400Z             "backendNodeId": 11,
+2018-08-15T03:14:26.766665500Z             "childNodeCount": 24,
+2018-08-15T03:14:26.766669700Z             "localName": "head",
+2018-08-15T03:14:26.766673900Z             "nodeId": 24,
+2018-08-15T03:14:26.766678000Z             "nodeName": "HEAD",
+2018-08-15T03:14:26.766682200Z             "nodeType": 1,
+2018-08-15T03:14:26.766686300Z             "nodeValue": "",
+2018-08-15T03:14:26.766690400Z             "parentId": 22
+2018-08-15T03:14:26.766694500Z          }, {
+2018-08-15T03:14:26.766698600Z             "attributes": [ "id", "pg-index", "class", "page-index body--home body--onboarding" ],
+2018-08-15T03:14:26.766704900Z             "backendNodeId": 12,
+2018-08-15T03:14:26.766709000Z             "childNodeCount": 9,
+2018-08-15T03:14:26.766713100Z             "localName": "body",
+2018-08-15T03:14:26.766717400Z             "nodeId": 25,
+2018-08-15T03:14:26.766721500Z             "nodeName": "BODY",
+2018-08-15T03:14:26.766725700Z             "nodeType": 1,
+2018-08-15T03:14:26.766729800Z             "nodeValue": "",
+2018-08-15T03:14:26.766733900Z             "parentId": 22
+2018-08-15T03:14:26.766737900Z          } ],
+2018-08-15T03:14:26.766742000Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:26.766746400Z          "localName": "html",
+2018-08-15T03:14:26.766750500Z          "nodeId": 22,
+2018-08-15T03:14:26.766754600Z          "nodeName": "HTML",
+2018-08-15T03:14:26.766760400Z          "nodeType": 1,
+2018-08-15T03:14:26.766764600Z          "nodeValue": "",
+2018-08-15T03:14:26.766768800Z          "parentId": 14
+2018-08-15T03:14:26.766772900Z       } ],
+2018-08-15T03:14:26.766776900Z       "documentURL": "https://duckduckgo.com/",
+2018-08-15T03:14:26.766781100Z       "localName": "",
+2018-08-15T03:14:26.766789100Z       "nodeId": 14,
+2018-08-15T03:14:26.766793500Z       "nodeName": "#document",
+2018-08-15T03:14:26.766797500Z       "nodeType": 9,
+2018-08-15T03:14:26.766801600Z       "nodeValue": "",
+2018-08-15T03:14:26.766805700Z       "xmlVersion": ""
+2018-08-15T03:14:26.766809700Z    }
+2018-08-15T03:14:26.766813700Z }
+2018-08-15T03:14:26.766819500Z [1534302866.705][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+2018-08-15T03:14:26.766823700Z    "frame": {
+2018-08-15T03:14:26.766827700Z       "id": "42B19F548553FD17255AE5133446C667",
+2018-08-15T03:14:26.766831900Z       "loaderId": "5613EF93CE2F5846C482649732B17112",
+2018-08-15T03:14:26.766836100Z       "mimeType": "text/html",
+2018-08-15T03:14:26.766840100Z       "name": "iframe_hidden",
+2018-08-15T03:14:26.766844200Z       "parentId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:26.766848300Z       "securityOrigin": "https://duckduckgo.com",
+2018-08-15T03:14:26.766852500Z       "url": "https://duckduckgo.com/post2.html"
+2018-08-15T03:14:26.766856700Z    }
+2018-08-15T03:14:26.766860600Z }
+2018-08-15T03:14:26.766865500Z [1534302866.705][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+2018-08-15T03:14:26.766871600Z    "context": {
+2018-08-15T03:14:26.766875800Z       "auxData": {
+2018-08-15T03:14:26.766879700Z          "frameId": "42B19F548553FD17255AE5133446C667",
+2018-08-15T03:14:26.766883900Z          "isDefault": true
+2018-08-15T03:14:26.766887900Z       },
+2018-08-15T03:14:26.766892000Z       "id": 2,
+2018-08-15T03:14:26.766896000Z       "name": "",
+2018-08-15T03:14:26.766900100Z       "origin": "https://duckduckgo.com"
+2018-08-15T03:14:26.766904100Z    }
+2018-08-15T03:14:26.766908100Z }
+2018-08-15T03:14:26.766912000Z [1534302866.705][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=21) {
+2018-08-15T03:14:26.766939900Z    "expression": "1"
+2018-08-15T03:14:26.766946400Z }
+2018-08-15T03:14:26.766952600Z [1534302866.706][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+2018-08-15T03:14:26.766957000Z    "frameId": "42B19F548553FD17255AE5133446C667"
+2018-08-15T03:14:26.766961300Z }
+2018-08-15T03:14:26.766965400Z [1534302866.707][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=21) {
+2018-08-15T03:14:26.766969600Z    "result": {
+2018-08-15T03:14:26.766973700Z       "description": "1",
+2018-08-15T03:14:26.766978000Z       "type": "number",
+2018-08-15T03:14:26.766982200Z       "value": 1
+2018-08-15T03:14:26.766986400Z    }
+2018-08-15T03:14:26.766990500Z }
+2018-08-15T03:14:26.843266300Z [1534302866.841][DEBUG]: DEVTOOLS EVENT Page.loadEventFired {
+2018-08-15T03:14:26.843287300Z    "timestamp": 53544.600918
+2018-08-15T03:14:26.843292400Z }
+2018-08-15T03:14:26.843296500Z [1534302866.841][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+2018-08-15T03:14:26.843300700Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0"
+2018-08-15T03:14:26.843305000Z }
+2018-08-15T03:14:26.843309000Z [1534302866.841][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=22) {
+2018-08-15T03:14:26.843313200Z    "expression": "1"
+2018-08-15T03:14:26.843317300Z }
+2018-08-15T03:14:26.846840600Z [1534302866.847][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=22) {
+2018-08-15T03:14:26.846873400Z    "result": {
+2018-08-15T03:14:26.846878800Z       "description": "1",
+2018-08-15T03:14:26.846883300Z       "type": "number",
+2018-08-15T03:14:26.846887600Z       "value": 1
+2018-08-15T03:14:26.846891800Z    }
+2018-08-15T03:14:26.846895900Z }
+2018-08-15T03:14:26.846900000Z [1534302866.847][INFO]: Done waiting for pending navigations. Status: ok
+2018-08-15T03:14:26.846904500Z [1534302866.847][INFO]: RESPONSE Navigate
+2018-08-15T03:14:26.910899400Z [1534302866.901][INFO]: COMMAND FindElement {
+2018-08-15T03:14:26.910926200Z    "using": "css selector",
+2018-08-15T03:14:26.910940000Z    "value": "input#search_form_input_homepage"
+2018-08-15T03:14:26.910944200Z }
+2018-08-15T03:14:26.910957200Z [1534302866.901][INFO]: Waiting for pending navigations...
+2018-08-15T03:14:26.910970200Z [1534302866.901][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=23) {
+2018-08-15T03:14:26.910974300Z    "expression": "1"
+2018-08-15T03:14:26.910978100Z }
+2018-08-15T03:14:26.910981600Z [1534302866.902][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=23) {
+2018-08-15T03:14:26.910985300Z    "result": {
+2018-08-15T03:14:26.910989000Z       "description": "1",
+2018-08-15T03:14:26.910992700Z       "type": "number",
+2018-08-15T03:14:26.910996400Z       "value": 1
+2018-08-15T03:14:26.911018700Z    }
+2018-08-15T03:14:26.911022400Z }
+2018-08-15T03:14:26.911026000Z [1534302866.902][INFO]: Done waiting for pending navigations. Status: ok
+2018-08-15T03:14:26.932390400Z [1534302866.932][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=24) {
+2018-08-15T03:14:26.932406000Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2018-08-15T03:14:26.932411600Z    "returnByValue": true
+2018-08-15T03:14:26.932415500Z }
+2018-08-15T03:14:26.941494300Z [1534302866.941][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=24) {
+2018-08-15T03:14:26.941544500Z    "result": {
+2018-08-15T03:14:26.941551000Z       "type": "object",
+2018-08-15T03:14:26.941555200Z       "value": {
+2018-08-15T03:14:26.941559100Z          "status": 0,
+2018-08-15T03:14:26.941563000Z          "value": {
+2018-08-15T03:14:26.941566800Z             "ELEMENT": "0.40340332991188954-1"
+2018-08-15T03:14:26.941570800Z          }
+2018-08-15T03:14:26.941574500Z       }
+2018-08-15T03:14:26.941578200Z    }
+2018-08-15T03:14:26.941581800Z }
+2018-08-15T03:14:26.941720800Z [1534302866.941][INFO]: Waiting for pending navigations...
+2018-08-15T03:14:26.941731900Z [1534302866.941][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=25) {
+2018-08-15T03:14:26.941736500Z    "expression": "1"
+2018-08-15T03:14:26.941740600Z }
+2018-08-15T03:14:26.942472100Z [1534302866.942][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=25) {
+2018-08-15T03:14:26.942482800Z    "result": {
+2018-08-15T03:14:26.942487400Z       "description": "1",
+2018-08-15T03:14:26.942491600Z       "type": "number",
+2018-08-15T03:14:26.942495600Z       "value": 1
+2018-08-15T03:14:26.942499600Z    }
+2018-08-15T03:14:26.942503400Z }
+2018-08-15T03:14:26.942507200Z [1534302866.942][INFO]: Done waiting for pending navigations. Status: ok
+2018-08-15T03:14:26.942511300Z [1534302866.942][INFO]: RESPONSE FindElement {
+2018-08-15T03:14:26.942515200Z    "ELEMENT": "0.40340332991188954-1"
+2018-08-15T03:14:26.942537900Z }
+2018-08-15T03:14:26.975225500Z [1534302866.975][INFO]: COMMAND TypeElement {
+2018-08-15T03:14:26.975252800Z    "id": "0.40340332991188954-1",
+2018-08-15T03:14:26.975258200Z    "value": [ "selenium" ]
+2018-08-15T03:14:26.975748000Z }
+2018-08-15T03:14:26.975753000Z [1534302866.975][INFO]: Waiting for pending navigations...
+2018-08-15T03:14:26.975757200Z [1534302866.975][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=26) {
+2018-08-15T03:14:26.975761500Z    "expression": "1"
+2018-08-15T03:14:26.975765600Z }
+2018-08-15T03:14:26.976282000Z [1534302866.976][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=26) {
+2018-08-15T03:14:26.976291000Z    "result": {
+2018-08-15T03:14:26.976295500Z       "description": "1",
+2018-08-15T03:14:26.976299800Z       "type": "number",
+2018-08-15T03:14:26.976304100Z       "value": 1
+2018-08-15T03:14:26.976308300Z    }
+2018-08-15T03:14:26.976327000Z }
+2018-08-15T03:14:26.976333100Z [1534302866.976][INFO]: Done waiting for pending navigations. Status: ok
+2018-08-15T03:14:26.976337700Z [1534302866.976][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=27) {
+2018-08-15T03:14:26.976351000Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2018-08-15T03:14:26.976356300Z    "returnByValue": true
+2018-08-15T03:14:26.976360300Z }
+2018-08-15T03:14:26.979035000Z [1534302866.979][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=27) {
+2018-08-15T03:14:26.979046500Z    "result": {
+2018-08-15T03:14:26.979051500Z       "type": "object",
+2018-08-15T03:14:26.979055900Z       "value": {
+2018-08-15T03:14:26.979082800Z          "status": 0,
+2018-08-15T03:14:26.979089700Z          "value": "INPUT"
+2018-08-15T03:14:26.979094200Z       }
+2018-08-15T03:14:26.979098200Z    }
+2018-08-15T03:14:26.979102100Z }
+2018-08-15T03:14:26.979514800Z [1534302866.979][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=28) {
+2018-08-15T03:14:26.979523000Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2018-08-15T03:14:26.979528300Z    "returnByValue": true
+2018-08-15T03:14:26.979532500Z }
+2018-08-15T03:14:26.982065500Z [1534302866.982][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=28) {
+2018-08-15T03:14:26.982076400Z    "result": {
+2018-08-15T03:14:26.982081400Z       "type": "object",
+2018-08-15T03:14:26.982085700Z       "value": {
+2018-08-15T03:14:26.982089800Z          "status": 0,
+2018-08-15T03:14:26.982093700Z          "value": "text"
+2018-08-15T03:14:26.982097800Z       }
+2018-08-15T03:14:26.982101700Z    }
+2018-08-15T03:14:26.982105700Z }
+2018-08-15T03:14:26.983565300Z [1534302866.983][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=29) {
+2018-08-15T03:14:26.983573700Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2018-08-15T03:14:26.983579000Z    "returnByValue": true
+2018-08-15T03:14:26.983583200Z }
+2018-08-15T03:14:26.992609900Z [1534302866.992][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=29) {
+2018-08-15T03:14:26.992630100Z    "result": {
+2018-08-15T03:14:26.992634700Z       "type": "object",
+2018-08-15T03:14:26.992638900Z       "value": {
+2018-08-15T03:14:26.992661700Z          "status": 0,
+2018-08-15T03:14:26.992666800Z          "value": true
+2018-08-15T03:14:26.992670800Z       }
+2018-08-15T03:14:26.992674700Z    }
+2018-08-15T03:14:26.992687400Z }
+2018-08-15T03:14:26.993720800Z [1534302866.994][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=30) {
+2018-08-15T03:14:26.993729000Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2018-08-15T03:14:26.993734200Z    "returnByValue": true
+2018-08-15T03:14:26.993738200Z }
+2018-08-15T03:14:26.999178900Z [1534302866.999][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=30) {
+2018-08-15T03:14:26.999191700Z    "result": {
+2018-08-15T03:14:26.999196200Z       "type": "object",
+2018-08-15T03:14:26.999200400Z       "value": {
+2018-08-15T03:14:26.999204600Z          "status": 0,
+2018-08-15T03:14:26.999208500Z          "value": true
+2018-08-15T03:14:26.999212300Z       }
+2018-08-15T03:14:26.999216000Z    }
+2018-08-15T03:14:26.999219700Z }
+2018-08-15T03:14:26.999698800Z [1534302867.000][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=31) {
+2018-08-15T03:14:26.999707000Z    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+2018-08-15T03:14:26.999712000Z    "returnByValue": true
+2018-08-15T03:14:26.999715900Z }
+2018-08-15T03:14:27.001653700Z [1534302867.002][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=31) {
+2018-08-15T03:14:27.001662400Z    "result": {
+2018-08-15T03:14:27.001681400Z       "type": "object",
+2018-08-15T03:14:27.001687100Z       "value": {
+2018-08-15T03:14:27.001691200Z          "status": 0
+2018-08-15T03:14:27.001695100Z       }
+2018-08-15T03:14:27.001698900Z    }
+2018-08-15T03:14:27.001702600Z }
+2018-08-15T03:14:27.008793100Z [1534302867.009][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=32) {
+2018-08-15T03:14:27.008806100Z    "code": "KeyS",
+2018-08-15T03:14:27.008811100Z    "key": "s",
+2018-08-15T03:14:27.008815400Z    "modifiers": 0,
+2018-08-15T03:14:27.008819500Z    "text": "s",
+2018-08-15T03:14:27.008823500Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.008827500Z    "unmodifiedText": "s",
+2018-08-15T03:14:27.008831400Z    "windowsVirtualKeyCode": 83
+2018-08-15T03:14:27.008835400Z }
+2018-08-15T03:14:27.011533200Z [1534302867.011][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=32) {
+2018-08-15T03:14:27.011544400Z 
+2018-08-15T03:14:27.011549300Z }
+2018-08-15T03:14:27.011553600Z [1534302867.011][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=33) {
+2018-08-15T03:14:27.011565000Z    "code": "KeyS",
+2018-08-15T03:14:27.011569500Z    "key": "s",
+2018-08-15T03:14:27.011573600Z    "modifiers": 0,
+2018-08-15T03:14:27.011577500Z    "text": "s",
+2018-08-15T03:14:27.011581400Z    "type": "char",
+2018-08-15T03:14:27.011585100Z    "unmodifiedText": "s",
+2018-08-15T03:14:27.011588900Z    "windowsVirtualKeyCode": 83
+2018-08-15T03:14:27.011592800Z }
+2018-08-15T03:14:27.023150000Z [1534302867.023][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=33) {
+2018-08-15T03:14:27.023168500Z 
+2018-08-15T03:14:27.023190500Z }
+2018-08-15T03:14:27.023195100Z [1534302867.023][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=34) {
+2018-08-15T03:14:27.023199300Z    "code": "KeyS",
+2018-08-15T03:14:27.023203400Z    "key": "s",
+2018-08-15T03:14:27.023207400Z    "modifiers": 0,
+2018-08-15T03:14:27.023211400Z    "text": "s",
+2018-08-15T03:14:27.023215300Z    "type": "keyUp",
+2018-08-15T03:14:27.023219200Z    "unmodifiedText": "s",
+2018-08-15T03:14:27.023223200Z    "windowsVirtualKeyCode": 83
+2018-08-15T03:14:27.023227100Z }
+2018-08-15T03:14:27.031523400Z [1534302867.031][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=34) {
+2018-08-15T03:14:27.031566900Z 
+2018-08-15T03:14:27.031572000Z }
+2018-08-15T03:14:27.031849700Z [1534302867.032][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=35) {
+2018-08-15T03:14:27.031859400Z    "code": "KeyE",
+2018-08-15T03:14:27.031864100Z    "key": "e",
+2018-08-15T03:14:27.031877500Z    "modifiers": 0,
+2018-08-15T03:14:27.031882000Z    "text": "e",
+2018-08-15T03:14:27.031886200Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.031915400Z    "unmodifiedText": "e",
+2018-08-15T03:14:27.031920300Z    "windowsVirtualKeyCode": 69
+2018-08-15T03:14:27.031933400Z }
+2018-08-15T03:14:27.032276100Z [1534302867.032][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.032294100Z    "childNodeCount": 25,
+2018-08-15T03:14:27.032298700Z    "nodeId": 24
+2018-08-15T03:14:27.032302900Z }
+2018-08-15T03:14:27.035921600Z [1534302867.036][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=35) {
+2018-08-15T03:14:27.035936900Z 
+2018-08-15T03:14:27.035941100Z }
+2018-08-15T03:14:27.036063600Z [1534302867.036][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=36) {
+2018-08-15T03:14:27.036072000Z    "code": "KeyE",
+2018-08-15T03:14:27.036076600Z    "key": "e",
+2018-08-15T03:14:27.036080800Z    "modifiers": 0,
+2018-08-15T03:14:27.036092700Z    "text": "e",
+2018-08-15T03:14:27.036097100Z    "type": "char",
+2018-08-15T03:14:27.036120200Z    "unmodifiedText": "e",
+2018-08-15T03:14:27.036124600Z    "windowsVirtualKeyCode": 69
+2018-08-15T03:14:27.036128700Z }
+2018-08-15T03:14:27.041594000Z [1534302867.041][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=36) {
+2018-08-15T03:14:27.041629300Z 
+2018-08-15T03:14:27.041636100Z }
+2018-08-15T03:14:27.041839000Z [1534302867.042][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=37) {
+2018-08-15T03:14:27.041850800Z    "code": "KeyE",
+2018-08-15T03:14:27.041855600Z    "key": "e",
+2018-08-15T03:14:27.041859700Z    "modifiers": 0,
+2018-08-15T03:14:27.041863700Z    "text": "e",
+2018-08-15T03:14:27.041867500Z    "type": "keyUp",
+2018-08-15T03:14:27.041871200Z    "unmodifiedText": "e",
+2018-08-15T03:14:27.041875000Z    "windowsVirtualKeyCode": 69
+2018-08-15T03:14:27.041878800Z }
+2018-08-15T03:14:27.048181600Z [1534302867.048][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.048200300Z    "childNodeCount": 24,
+2018-08-15T03:14:27.048205100Z    "nodeId": 24
+2018-08-15T03:14:27.048230800Z }
+2018-08-15T03:14:27.048236500Z [1534302867.048][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.048240600Z    "childNodeCount": 25,
+2018-08-15T03:14:27.048244500Z    "nodeId": 24
+2018-08-15T03:14:27.048248200Z }
+2018-08-15T03:14:27.048251900Z [1534302867.048][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=37) {
+2018-08-15T03:14:27.048255800Z 
+2018-08-15T03:14:27.048259500Z }
+2018-08-15T03:14:27.048263200Z [1534302867.048][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=38) {
+2018-08-15T03:14:27.048267100Z    "code": "KeyL",
+2018-08-15T03:14:27.048271100Z    "key": "l",
+2018-08-15T03:14:27.048274900Z    "modifiers": 0,
+2018-08-15T03:14:27.048278600Z    "text": "l",
+2018-08-15T03:14:27.048282300Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.048286200Z    "unmodifiedText": "l",
+2018-08-15T03:14:27.048290000Z    "windowsVirtualKeyCode": 76
+2018-08-15T03:14:27.048294000Z }
+2018-08-15T03:14:27.049383700Z [1534302867.049][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=38) {
+2018-08-15T03:14:27.049394100Z 
+2018-08-15T03:14:27.049398700Z }
+2018-08-15T03:14:27.049402800Z [1534302867.049][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=39) {
+2018-08-15T03:14:27.049407000Z    "code": "KeyL",
+2018-08-15T03:14:27.049411400Z    "key": "l",
+2018-08-15T03:14:27.049424300Z    "modifiers": 0,
+2018-08-15T03:14:27.049428600Z    "text": "l",
+2018-08-15T03:14:27.049432500Z    "type": "char",
+2018-08-15T03:14:27.049436400Z    "unmodifiedText": "l",
+2018-08-15T03:14:27.049440300Z    "windowsVirtualKeyCode": 76
+2018-08-15T03:14:27.049444200Z }
+2018-08-15T03:14:27.051762200Z [1534302867.052][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=39) {
+2018-08-15T03:14:27.051782100Z 
+2018-08-15T03:14:27.051786600Z }
+2018-08-15T03:14:27.051791300Z [1534302867.052][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=40) {
+2018-08-15T03:14:27.051795600Z    "code": "KeyL",
+2018-08-15T03:14:27.051799700Z    "key": "l",
+2018-08-15T03:14:27.051803600Z    "modifiers": 0,
+2018-08-15T03:14:27.051807500Z    "text": "l",
+2018-08-15T03:14:27.051811400Z    "type": "keyUp",
+2018-08-15T03:14:27.051815400Z    "unmodifiedText": "l",
+2018-08-15T03:14:27.051819300Z    "windowsVirtualKeyCode": 76
+2018-08-15T03:14:27.051823300Z }
+2018-08-15T03:14:27.053743800Z [1534302867.054][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=40) {
+2018-08-15T03:14:27.053755200Z 
+2018-08-15T03:14:27.053768600Z }
+2018-08-15T03:14:27.053772900Z [1534302867.054][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=41) {
+2018-08-15T03:14:27.053777300Z    "code": "KeyE",
+2018-08-15T03:14:27.053781600Z    "key": "e",
+2018-08-15T03:14:27.053785800Z    "modifiers": 0,
+2018-08-15T03:14:27.053790000Z    "text": "e",
+2018-08-15T03:14:27.053794200Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.053798500Z    "unmodifiedText": "e",
+2018-08-15T03:14:27.053802600Z    "windowsVirtualKeyCode": 69
+2018-08-15T03:14:27.053806800Z }
+2018-08-15T03:14:27.054557000Z [1534302867.054][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.054566100Z    "childNodeCount": 24,
+2018-08-15T03:14:27.054570500Z    "nodeId": 24
+2018-08-15T03:14:27.054574500Z }
+2018-08-15T03:14:27.054578400Z [1534302867.054][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.054582400Z    "childNodeCount": 25,
+2018-08-15T03:14:27.054586200Z    "nodeId": 24
+2018-08-15T03:14:27.054590000Z }
+2018-08-15T03:14:27.055053800Z [1534302867.055][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=41) {
+2018-08-15T03:14:27.055062200Z 
+2018-08-15T03:14:27.055066400Z }
+2018-08-15T03:14:27.055070300Z [1534302867.055][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=42) {
+2018-08-15T03:14:27.055074300Z    "code": "KeyE",
+2018-08-15T03:14:27.055105500Z    "key": "e",
+2018-08-15T03:14:27.055110300Z    "modifiers": 0,
+2018-08-15T03:14:27.055114400Z    "text": "e",
+2018-08-15T03:14:27.055118200Z    "type": "char",
+2018-08-15T03:14:27.055122000Z    "unmodifiedText": "e",
+2018-08-15T03:14:27.055125900Z    "windowsVirtualKeyCode": 69
+2018-08-15T03:14:27.055129700Z }
+2018-08-15T03:14:27.056594900Z [1534302867.057][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=42) {
+2018-08-15T03:14:27.056606800Z 
+2018-08-15T03:14:27.056611400Z }
+2018-08-15T03:14:27.056615500Z [1534302867.057][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=43) {
+2018-08-15T03:14:27.056619700Z    "code": "KeyE",
+2018-08-15T03:14:27.056623800Z    "key": "e",
+2018-08-15T03:14:27.056627800Z    "modifiers": 0,
+2018-08-15T03:14:27.056631700Z    "text": "e",
+2018-08-15T03:14:27.056635500Z    "type": "keyUp",
+2018-08-15T03:14:27.056639400Z    "unmodifiedText": "e",
+2018-08-15T03:14:27.056643200Z    "windowsVirtualKeyCode": 69
+2018-08-15T03:14:27.056647100Z }
+2018-08-15T03:14:27.058299500Z [1534302867.058][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=43) {
+2018-08-15T03:14:27.058310400Z 
+2018-08-15T03:14:27.058314800Z }
+2018-08-15T03:14:27.058318900Z [1534302867.058][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=44) {
+2018-08-15T03:14:27.058323200Z    "code": "KeyN",
+2018-08-15T03:14:27.058327300Z    "key": "n",
+2018-08-15T03:14:27.058340400Z    "modifiers": 0,
+2018-08-15T03:14:27.058353800Z    "text": "n",
+2018-08-15T03:14:27.058358200Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.058362300Z    "unmodifiedText": "n",
+2018-08-15T03:14:27.058366300Z    "windowsVirtualKeyCode": 78
+2018-08-15T03:14:27.058370200Z }
+2018-08-15T03:14:27.059014800Z [1534302867.059][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.059024900Z    "childNodeCount": 24,
+2018-08-15T03:14:27.059031600Z    "nodeId": 24
+2018-08-15T03:14:27.059037500Z }
+2018-08-15T03:14:27.059042100Z [1534302867.059][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.059046100Z    "childNodeCount": 25,
+2018-08-15T03:14:27.059050000Z    "nodeId": 24
+2018-08-15T03:14:27.059053900Z }
+2018-08-15T03:14:27.059773400Z [1534302867.060][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=44) {
+2018-08-15T03:14:27.059782000Z 
+2018-08-15T03:14:27.059786300Z }
+2018-08-15T03:14:27.059882600Z [1534302867.060][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=45) {
+2018-08-15T03:14:27.059901400Z    "code": "KeyN",
+2018-08-15T03:14:27.059906500Z    "key": "n",
+2018-08-15T03:14:27.059910500Z    "modifiers": 0,
+2018-08-15T03:14:27.059914400Z    "text": "n",
+2018-08-15T03:14:27.059918300Z    "type": "char",
+2018-08-15T03:14:27.059922200Z    "unmodifiedText": "n",
+2018-08-15T03:14:27.059926200Z    "windowsVirtualKeyCode": 78
+2018-08-15T03:14:27.059930000Z }
+2018-08-15T03:14:27.061200700Z [1534302867.061][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=45) {
+2018-08-15T03:14:27.061210500Z 
+2018-08-15T03:14:27.061214900Z }
+2018-08-15T03:14:27.061219000Z [1534302867.061][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=46) {
+2018-08-15T03:14:27.061223300Z    "code": "KeyN",
+2018-08-15T03:14:27.061227500Z    "key": "n",
+2018-08-15T03:14:27.061231400Z    "modifiers": 0,
+2018-08-15T03:14:27.061235400Z    "text": "n",
+2018-08-15T03:14:27.061239200Z    "type": "keyUp",
+2018-08-15T03:14:27.061243100Z    "unmodifiedText": "n",
+2018-08-15T03:14:27.061246900Z    "windowsVirtualKeyCode": 78
+2018-08-15T03:14:27.061250800Z }
+2018-08-15T03:14:27.064374100Z [1534302867.064][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.064389900Z    "childNodeCount": 24,
+2018-08-15T03:14:27.064395100Z    "nodeId": 24
+2018-08-15T03:14:27.064399600Z }
+2018-08-15T03:14:27.064474500Z [1534302867.064][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.064482300Z    "childNodeCount": 25,
+2018-08-15T03:14:27.064486700Z    "nodeId": 24
+2018-08-15T03:14:27.064490900Z }
+2018-08-15T03:14:27.064554600Z [1534302867.064][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=46) {
+2018-08-15T03:14:27.064562000Z 
+2018-08-15T03:14:27.064566300Z }
+2018-08-15T03:14:27.064570300Z [1534302867.064][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=47) {
+2018-08-15T03:14:27.064586900Z    "code": "KeyI",
+2018-08-15T03:14:27.064591800Z    "key": "i",
+2018-08-15T03:14:27.064595900Z    "modifiers": 0,
+2018-08-15T03:14:27.064599900Z    "text": "i",
+2018-08-15T03:14:27.064603800Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.064607700Z    "unmodifiedText": "i",
+2018-08-15T03:14:27.064611700Z    "windowsVirtualKeyCode": 73
+2018-08-15T03:14:27.064615600Z }
+2018-08-15T03:14:27.065504000Z [1534302867.065][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=47) {
+2018-08-15T03:14:27.065514700Z 
+2018-08-15T03:14:27.065519400Z }
+2018-08-15T03:14:27.065543700Z [1534302867.065][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=48) {
+2018-08-15T03:14:27.065550700Z    "code": "KeyI",
+2018-08-15T03:14:27.065555100Z    "key": "i",
+2018-08-15T03:14:27.065559200Z    "modifiers": 0,
+2018-08-15T03:14:27.065563200Z    "text": "i",
+2018-08-15T03:14:27.065567300Z    "type": "char",
+2018-08-15T03:14:27.065571200Z    "unmodifiedText": "i",
+2018-08-15T03:14:27.065575300Z    "windowsVirtualKeyCode": 73
+2018-08-15T03:14:27.065579400Z }
+2018-08-15T03:14:27.066690800Z [1534302867.067][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=48) {
+2018-08-15T03:14:27.066702300Z 
+2018-08-15T03:14:27.066707100Z }
+2018-08-15T03:14:27.066711200Z [1534302867.067][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=49) {
+2018-08-15T03:14:27.066715500Z    "code": "KeyI",
+2018-08-15T03:14:27.066719800Z    "key": "i",
+2018-08-15T03:14:27.066723800Z    "modifiers": 0,
+2018-08-15T03:14:27.066727900Z    "text": "i",
+2018-08-15T03:14:27.066752600Z    "type": "keyUp",
+2018-08-15T03:14:27.066758000Z    "unmodifiedText": "i",
+2018-08-15T03:14:27.066762300Z    "windowsVirtualKeyCode": 73
+2018-08-15T03:14:27.066766500Z }
+2018-08-15T03:14:27.068502500Z [1534302867.068][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=49) {
+2018-08-15T03:14:27.068513800Z 
+2018-08-15T03:14:27.068518400Z }
+2018-08-15T03:14:27.068522400Z [1534302867.068][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=50) {
+2018-08-15T03:14:27.068526600Z    "code": "KeyU",
+2018-08-15T03:14:27.068530500Z    "key": "u",
+2018-08-15T03:14:27.068534400Z    "modifiers": 0,
+2018-08-15T03:14:27.068538200Z    "text": "u",
+2018-08-15T03:14:27.068542000Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.068545900Z    "unmodifiedText": "u",
+2018-08-15T03:14:27.068549800Z    "windowsVirtualKeyCode": 85
+2018-08-15T03:14:27.068565000Z }
+2018-08-15T03:14:27.068614900Z [1534302867.069][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.068621900Z    "childNodeCount": 24,
+2018-08-15T03:14:27.068626200Z    "nodeId": 24
+2018-08-15T03:14:27.068630000Z }
+2018-08-15T03:14:27.068693200Z [1534302867.069][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.068700300Z    "childNodeCount": 25,
+2018-08-15T03:14:27.068704600Z    "nodeId": 24
+2018-08-15T03:14:27.068708600Z }
+2018-08-15T03:14:27.069509500Z [1534302867.069][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=50) {
+2018-08-15T03:14:27.069528400Z 
+2018-08-15T03:14:27.069533200Z }
+2018-08-15T03:14:27.069537100Z [1534302867.069][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=51) {
+2018-08-15T03:14:27.069541100Z    "code": "KeyU",
+2018-08-15T03:14:27.069554500Z    "key": "u",
+2018-08-15T03:14:27.069558900Z    "modifiers": 0,
+2018-08-15T03:14:27.069562900Z    "text": "u",
+2018-08-15T03:14:27.069575700Z    "type": "char",
+2018-08-15T03:14:27.069579600Z    "unmodifiedText": "u",
+2018-08-15T03:14:27.069583400Z    "windowsVirtualKeyCode": 85
+2018-08-15T03:14:27.069587300Z }
+2018-08-15T03:14:27.070838300Z [1534302867.071][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=51) {
+2018-08-15T03:14:27.070848200Z 
+2018-08-15T03:14:27.070852400Z }
+2018-08-15T03:14:27.070856300Z [1534302867.071][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=52) {
+2018-08-15T03:14:27.070860300Z    "code": "KeyU",
+2018-08-15T03:14:27.070864400Z    "key": "u",
+2018-08-15T03:14:27.070868300Z    "modifiers": 0,
+2018-08-15T03:14:27.070872200Z    "text": "u",
+2018-08-15T03:14:27.070876100Z    "type": "keyUp",
+2018-08-15T03:14:27.070880000Z    "unmodifiedText": "u",
+2018-08-15T03:14:27.070884000Z    "windowsVirtualKeyCode": 85
+2018-08-15T03:14:27.070888000Z }
+2018-08-15T03:14:27.072919300Z [1534302867.073][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=52) {
+2018-08-15T03:14:27.072933100Z 
+2018-08-15T03:14:27.072952300Z }
+2018-08-15T03:14:27.072957800Z [1534302867.073][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=53) {
+2018-08-15T03:14:27.072962000Z    "code": "KeyM",
+2018-08-15T03:14:27.072966100Z    "key": "m",
+2018-08-15T03:14:27.072970100Z    "modifiers": 0,
+2018-08-15T03:14:27.072974100Z    "text": "m",
+2018-08-15T03:14:27.072978000Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.072982000Z    "unmodifiedText": "m",
+2018-08-15T03:14:27.072985900Z    "windowsVirtualKeyCode": 77
+2018-08-15T03:14:27.072989700Z }
+2018-08-15T03:14:27.073214100Z [1534302867.073][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.073222200Z    "childNodeCount": 24,
+2018-08-15T03:14:27.073226800Z    "nodeId": 24
+2018-08-15T03:14:27.073230900Z }
+2018-08-15T03:14:27.073282900Z [1534302867.073][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.073290000Z    "childNodeCount": 25,
+2018-08-15T03:14:27.073294300Z    "nodeId": 24
+2018-08-15T03:14:27.073298300Z }
+2018-08-15T03:14:27.074188000Z [1534302867.074][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=53) {
+2018-08-15T03:14:27.074205100Z 
+2018-08-15T03:14:27.074210100Z }
+2018-08-15T03:14:27.074214000Z [1534302867.074][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=54) {
+2018-08-15T03:14:27.074242800Z    "code": "KeyM",
+2018-08-15T03:14:27.074247500Z    "key": "m",
+2018-08-15T03:14:27.074251700Z    "modifiers": 0,
+2018-08-15T03:14:27.074255700Z    "text": "m",
+2018-08-15T03:14:27.074259700Z    "type": "char",
+2018-08-15T03:14:27.074263700Z    "unmodifiedText": "m",
+2018-08-15T03:14:27.074267700Z    "windowsVirtualKeyCode": 77
+2018-08-15T03:14:27.074271700Z }
+2018-08-15T03:14:27.075642700Z [1534302867.076][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=54) {
+2018-08-15T03:14:27.075653300Z 
+2018-08-15T03:14:27.075657700Z }
+2018-08-15T03:14:27.075661600Z [1534302867.076][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=55) {
+2018-08-15T03:14:27.075665700Z    "code": "KeyM",
+2018-08-15T03:14:27.075669700Z    "key": "m",
+2018-08-15T03:14:27.075673700Z    "modifiers": 0,
+2018-08-15T03:14:27.075677600Z    "text": "m",
+2018-08-15T03:14:27.075681500Z    "type": "keyUp",
+2018-08-15T03:14:27.075685300Z    "unmodifiedText": "m",
+2018-08-15T03:14:27.075689200Z    "windowsVirtualKeyCode": 77
+2018-08-15T03:14:27.075693100Z }
+2018-08-15T03:14:27.077442900Z [1534302867.077][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=55) {
+2018-08-15T03:14:27.077463500Z 
+2018-08-15T03:14:27.077468300Z }
+2018-08-15T03:14:27.077472500Z [1534302867.077][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=56) {
+2018-08-15T03:14:27.077477000Z    "code": "Enter",
+2018-08-15T03:14:27.077496300Z    "key": "Enter",
+2018-08-15T03:14:27.077501100Z    "modifiers": 0,
+2018-08-15T03:14:27.077515700Z    "text": "\r",
+2018-08-15T03:14:27.077521000Z    "type": "rawKeyDown",
+2018-08-15T03:14:27.077525300Z    "unmodifiedText": "\r",
+2018-08-15T03:14:27.077529400Z    "windowsVirtualKeyCode": 13
+2018-08-15T03:14:27.077535500Z }
+2018-08-15T03:14:27.078389100Z [1534302867.078][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.078400500Z    "childNodeCount": 24,
+2018-08-15T03:14:27.078405600Z    "nodeId": 24
+2018-08-15T03:14:27.078409800Z }
+2018-08-15T03:14:27.078413800Z [1534302867.078][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.078417900Z    "childNodeCount": 25,
+2018-08-15T03:14:27.078422000Z    "nodeId": 24
+2018-08-15T03:14:27.078433000Z }
+2018-08-15T03:14:27.079697200Z [1534302867.080][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=56) {
+2018-08-15T03:14:27.079709100Z 
+2018-08-15T03:14:27.079726200Z }
+2018-08-15T03:14:27.079731600Z [1534302867.080][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=57) {
+2018-08-15T03:14:27.079735900Z    "code": "Enter",
+2018-08-15T03:14:27.079740100Z    "key": "Enter",
+2018-08-15T03:14:27.079744200Z    "modifiers": 0,
+2018-08-15T03:14:27.079748200Z    "text": "\r",
+2018-08-15T03:14:27.079752200Z    "type": "char",
+2018-08-15T03:14:27.079756100Z    "unmodifiedText": "\r",
+2018-08-15T03:14:27.079760100Z    "windowsVirtualKeyCode": 13
+2018-08-15T03:14:27.079764000Z }
+2018-08-15T03:14:27.082067200Z [1534302867.082][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=57) {
+2018-08-15T03:14:27.082084400Z 
+2018-08-15T03:14:27.082089000Z }
+2018-08-15T03:14:27.082093300Z [1534302867.082][DEBUG]: DEVTOOLS COMMAND Input.dispatchKeyEvent (id=58) {
+2018-08-15T03:14:27.082097600Z    "code": "Enter",
+2018-08-15T03:14:27.082101700Z    "key": "Enter",
+2018-08-15T03:14:27.082105700Z    "modifiers": 0,
+2018-08-15T03:14:27.082109700Z    "text": "\r",
+2018-08-15T03:14:27.082113600Z    "type": "keyUp",
+2018-08-15T03:14:27.082117600Z    "unmodifiedText": "\r",
+2018-08-15T03:14:27.082121500Z    "windowsVirtualKeyCode": 13
+2018-08-15T03:14:27.082125500Z }
+2018-08-15T03:14:27.082330200Z [1534302867.082][DEBUG]: DEVTOOLS EVENT Page.frameScheduledNavigation {
+2018-08-15T03:14:27.082359700Z    "delay": 0,
+2018-08-15T03:14:27.082365800Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:27.082370400Z    "reason": "formSubmissionGet",
+2018-08-15T03:14:27.082374800Z    "url": "https://duckduckgo.com/?q=selenium&t=hj"
+2018-08-15T03:14:27.082410800Z }
+2018-08-15T03:14:27.084729400Z [1534302867.085][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+2018-08-15T03:14:27.084745500Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0"
+2018-08-15T03:14:27.084750700Z }
+2018-08-15T03:14:27.084978500Z [1534302867.085][DEBUG]: DEVTOOLS EVENT Page.frameClearedScheduledNavigation {
+2018-08-15T03:14:27.084989700Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0"
+2018-08-15T03:14:27.084994600Z }
+2018-08-15T03:14:27.085150400Z [1534302867.085][DEBUG]: DEVTOOLS RESPONSE Input.dispatchKeyEvent (id=58) {
+2018-08-15T03:14:27.085159800Z 
+2018-08-15T03:14:27.085164300Z }
+2018-08-15T03:14:27.085168600Z [1534302867.085][INFO]: Waiting for pending navigations...
+2018-08-15T03:14:27.085180800Z [1534302867.085][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=59) {
+2018-08-15T03:14:27.085185400Z    "expression": "1"
+2018-08-15T03:14:27.085189500Z }
+2018-08-15T03:14:27.287612100Z [1534302867.287][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.287669200Z    "childNodeCount": 24,
+2018-08-15T03:14:27.287682300Z    "nodeId": 24
+2018-08-15T03:14:27.287691800Z }
+2018-08-15T03:14:27.288058700Z [1534302867.288][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.288110200Z    "childNodeCount": 10,
+2018-08-15T03:14:27.288123900Z    "nodeId": 25
+2018-08-15T03:14:27.288133400Z }
+2018-08-15T03:14:27.288488200Z [1534302867.288][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.288521200Z    "childNodeCount": 9,
+2018-08-15T03:14:27.288533600Z    "nodeId": 25
+2018-08-15T03:14:27.288543000Z }
+2018-08-15T03:14:27.335252500Z [1534302867.335][DEBUG]: DEVTOOLS EVENT Runtime.executionContextDestroyed {
+2018-08-15T03:14:27.335287100Z    "executionContextId": 2
+2018-08-15T03:14:27.335293000Z }
+2018-08-15T03:14:27.335297300Z [1534302867.335][DEBUG]: DEVTOOLS EVENT Page.frameDetached {
+2018-08-15T03:14:27.335301600Z    "frameId": "42B19F548553FD17255AE5133446C667"
+2018-08-15T03:14:27.335305800Z }
+2018-08-15T03:14:27.335309700Z [1534302867.335][DEBUG]: DEVTOOLS EVENT Runtime.executionContextDestroyed {
+2018-08-15T03:14:27.335313800Z    "executionContextId": 1
+2018-08-15T03:14:27.335317800Z }
+2018-08-15T03:14:27.335321600Z [1534302867.335][DEBUG]: DEVTOOLS EVENT Runtime.executionContextsCleared {
+2018-08-15T03:14:27.335325600Z 
+2018-08-15T03:14:27.335329400Z }
+2018-08-15T03:14:27.335333200Z [1534302867.335][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+2018-08-15T03:14:27.335337200Z    "frame": {
+2018-08-15T03:14:27.335341100Z       "id": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:27.335345200Z       "loaderId": "0A7E328401FB2F8535F3762888319F2D",
+2018-08-15T03:14:27.335349200Z       "mimeType": "text/html",
+2018-08-15T03:14:27.335353200Z       "securityOrigin": "https://duckduckgo.com",
+2018-08-15T03:14:27.335357100Z       "url": "https://duckduckgo.com/?q=selenium&t=hj"
+2018-08-15T03:14:27.335361300Z    }
+2018-08-15T03:14:27.335365000Z }
+2018-08-15T03:14:27.335368700Z [1534302867.335][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+2018-08-15T03:14:27.335372600Z    "context": {
+2018-08-15T03:14:27.335376400Z       "auxData": {
+2018-08-15T03:14:27.335380200Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:27.335384100Z          "isDefault": true
+2018-08-15T03:14:27.335414800Z       },
+2018-08-15T03:14:27.335419500Z       "id": 3,
+2018-08-15T03:14:27.335423400Z       "name": "",
+2018-08-15T03:14:27.335427400Z       "origin": "https://duckduckgo.com"
+2018-08-15T03:14:27.335431500Z    }
+2018-08-15T03:14:27.335435300Z }
+2018-08-15T03:14:27.335439100Z [1534302867.335][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+2018-08-15T03:14:27.335443200Z 
+2018-08-15T03:14:27.335447000Z }
+2018-08-15T03:14:27.335450900Z [1534302867.335][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=60) {
+2018-08-15T03:14:27.335454900Z 
+2018-08-15T03:14:27.335458700Z }
+2018-08-15T03:14:27.335986700Z [1534302867.336][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=59) {
+2018-08-15T03:14:27.335996900Z    "result": {
+2018-08-15T03:14:27.336001500Z       "description": "1",
+2018-08-15T03:14:27.336005700Z       "type": "number",
+2018-08-15T03:14:27.336009900Z       "value": 1
+2018-08-15T03:14:27.336014000Z    }
+2018-08-15T03:14:27.336018000Z }
+2018-08-15T03:14:27.337546500Z [1534302867.337][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=60) {
+2018-08-15T03:14:27.337558400Z    "root": {
+2018-08-15T03:14:27.337563400Z       "backendNodeId": 16,
+2018-08-15T03:14:27.337567700Z       "baseURL": "https://duckduckgo.com/?q=selenium&t=hj",
+2018-08-15T03:14:27.337572300Z       "childNodeCount": 8,
+2018-08-15T03:14:27.337591900Z       "children": [ {
+2018-08-15T03:14:27.337596900Z          "backendNodeId": 17,
+2018-08-15T03:14:27.337601000Z          "localName": "",
+2018-08-15T03:14:27.337605300Z          "nodeId": 27,
+2018-08-15T03:14:27.337609300Z          "nodeName": "html",
+2018-08-15T03:14:27.337613400Z          "nodeType": 10,
+2018-08-15T03:14:27.337617400Z          "nodeValue": "",
+2018-08-15T03:14:27.337621600Z          "parentId": 26,
+2018-08-15T03:14:27.337625600Z          "publicId": "",
+2018-08-15T03:14:27.337629600Z          "systemId": ""
+2018-08-15T03:14:27.337633800Z       }, {
+2018-08-15T03:14:27.337637700Z          "backendNodeId": 18,
+2018-08-15T03:14:27.337641800Z          "localName": "",
+2018-08-15T03:14:27.337645800Z          "nodeId": 28,
+2018-08-15T03:14:27.337649800Z          "nodeName": "#comment",
+2018-08-15T03:14:27.337653800Z          "nodeType": 8,
+2018-08-15T03:14:27.337657900Z          "nodeValue": "[if IEMobile 7 ]> \u003Chtml lang=\"en_US\" class=\"no-js iem7\"> \u003C![endif]",
+2018-08-15T03:14:27.337662500Z          "parentId": 26
+2018-08-15T03:14:27.337672500Z       }, {
+2018-08-15T03:14:27.337676700Z          "backendNodeId": 19,
+2018-08-15T03:14:27.337680800Z          "localName": "",
+2018-08-15T03:14:27.337684700Z          "nodeId": 29,
+2018-08-15T03:14:27.337688600Z          "nodeName": "#comment",
+2018-08-15T03:14:27.337692500Z          "nodeType": 8,
+2018-08-15T03:14:27.337696400Z          "nodeValue": "[if lt IE 7]> \u003Chtml lang=\"en_US\" class=\"no-js ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7\">\u003C![endif]",
+2018-08-15T03:14:27.337701000Z          "parentId": 26
+2018-08-15T03:14:27.337704900Z       }, {
+2018-08-15T03:14:27.337708600Z          "backendNodeId": 20,
+2018-08-15T03:14:27.337712500Z          "localName": "",
+2018-08-15T03:14:27.337716400Z          "nodeId": 30,
+2018-08-15T03:14:27.337720200Z          "nodeName": "#comment",
+2018-08-15T03:14:27.337724200Z          "nodeType": 8,
+2018-08-15T03:14:27.337728000Z          "nodeValue": "[if IE 7]>    \u003Chtml lang=\"en_US\" class=\"no-js ie7 lt-ie10 lt-ie9 lt-ie8\"> \u003C![endif]",
+2018-08-15T03:14:27.337732500Z          "parentId": 26
+2018-08-15T03:14:27.337736400Z       }, {
+2018-08-15T03:14:27.337740100Z          "backendNodeId": 21,
+2018-08-15T03:14:27.337744000Z          "localName": "",
+2018-08-15T03:14:27.337747900Z          "nodeId": 31,
+2018-08-15T03:14:27.337751800Z          "nodeName": "#comment",
+2018-08-15T03:14:27.337755700Z          "nodeType": 8,
+2018-08-15T03:14:27.337759600Z          "nodeValue": "[if IE 8]>    \u003Chtml lang=\"en_US\" class=\"no-js ie8 lt-ie10 lt-ie9  has-zcm\">\u003C![endif]",
+2018-08-15T03:14:27.337764000Z          "parentId": 26
+2018-08-15T03:14:27.337767800Z       }, {
+2018-08-15T03:14:27.337771600Z          "backendNodeId": 22,
+2018-08-15T03:14:27.337775500Z          "localName": "",
+2018-08-15T03:14:27.337779400Z          "nodeId": 32,
+2018-08-15T03:14:27.337783200Z          "nodeName": "#comment",
+2018-08-15T03:14:27.337787200Z          "nodeType": 8,
+2018-08-15T03:14:27.337791100Z          "nodeValue": "[if IE 9]>    \u003Chtml lang=\"en_US\" class=\"no-js ie9 lt-ie10 has-zcm\"> \u003C![endif]",
+2018-08-15T03:14:27.337795300Z          "parentId": 26
+2018-08-15T03:14:27.337799200Z       }, {
+2018-08-15T03:14:27.337803000Z          "backendNodeId": 23,
+2018-08-15T03:14:27.337807100Z          "localName": "",
+2018-08-15T03:14:27.337811200Z          "nodeId": 33,
+2018-08-15T03:14:27.337815100Z          "nodeName": "#comment",
+2018-08-15T03:14:27.337819800Z          "nodeType": 8,
+2018-08-15T03:14:27.337826900Z          "nodeValue": "[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]>\u003C!",
+2018-08-15T03:14:27.337831300Z          "parentId": 26
+2018-08-15T03:14:27.337835300Z       }, {
+2018-08-15T03:14:27.337839100Z          "attributes": [ "class", "no-js has-zcm  " ],
+2018-08-15T03:14:27.337843300Z          "backendNodeId": 24,
+2018-08-15T03:14:27.337847200Z          "childNodeCount": 2,
+2018-08-15T03:14:27.337851100Z          "children": [ {
+2018-08-15T03:14:27.337855000Z             "backendNodeId": 25,
+2018-08-15T03:14:27.337859000Z             "localName": "",
+2018-08-15T03:14:27.337862900Z             "nodeId": 35,
+2018-08-15T03:14:27.337866800Z             "nodeName": "#comment",
+2018-08-15T03:14:27.337870800Z             "nodeType": 8,
+2018-08-15T03:14:27.337874600Z             "nodeValue": "\u003C![endif]",
+2018-08-15T03:14:27.337878500Z             "parentId": 34
+2018-08-15T03:14:27.337882400Z          }, {
+2018-08-15T03:14:27.337886200Z             "attributes": [  ],
+2018-08-15T03:14:27.337890000Z             "backendNodeId": 26,
+2018-08-15T03:14:27.337893900Z             "childNodeCount": 15,
+2018-08-15T03:14:27.337897800Z             "localName": "head",
+2018-08-15T03:14:27.337901700Z             "nodeId": 36,
+2018-08-15T03:14:27.337905500Z             "nodeName": "HEAD",
+2018-08-15T03:14:27.337909400Z             "nodeType": 1,
+2018-08-15T03:14:27.337913200Z             "nodeValue": "",
+2018-08-15T03:14:27.337917100Z             "parentId": 34
+2018-08-15T03:14:27.337920900Z          } ],
+2018-08-15T03:14:27.337924700Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:27.337928700Z          "localName": "html",
+2018-08-15T03:14:27.337932600Z          "nodeId": 34,
+2018-08-15T03:14:27.337936400Z          "nodeName": "HTML",
+2018-08-15T03:14:27.337940400Z          "nodeType": 1,
+2018-08-15T03:14:27.337944200Z          "nodeValue": "",
+2018-08-15T03:14:27.337948000Z          "parentId": 26
+2018-08-15T03:14:27.337959800Z       } ],
+2018-08-15T03:14:27.337964600Z       "documentURL": "https://duckduckgo.com/?q=selenium&t=hj",
+2018-08-15T03:14:27.337968900Z       "localName": "",
+2018-08-15T03:14:27.337973000Z       "nodeId": 26,
+2018-08-15T03:14:27.337976900Z       "nodeName": "#document",
+2018-08-15T03:14:27.337980900Z       "nodeType": 9,
+2018-08-15T03:14:27.337984700Z       "nodeValue": "",
+2018-08-15T03:14:27.337988600Z       "xmlVersion": ""
+2018-08-15T03:14:27.337992600Z    }
+2018-08-15T03:14:27.337999700Z }
+2018-08-15T03:14:27.608221300Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608263700Z    "childNodeCount": 16,
+2018-08-15T03:14:27.608268700Z    "nodeId": 36
+2018-08-15T03:14:27.608272900Z }
+2018-08-15T03:14:27.608276800Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608280900Z    "childNodeCount": 17,
+2018-08-15T03:14:27.608284800Z    "nodeId": 36
+2018-08-15T03:14:27.608288700Z }
+2018-08-15T03:14:27.608292500Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608296400Z    "childNodeCount": 18,
+2018-08-15T03:14:27.608300300Z    "nodeId": 36
+2018-08-15T03:14:27.608304100Z }
+2018-08-15T03:14:27.608307900Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeInserted {
+2018-08-15T03:14:27.608311900Z    "node": {
+2018-08-15T03:14:27.608315800Z       "attributes": [ "class", "body--serp" ],
+2018-08-15T03:14:27.608319900Z       "backendNodeId": 27,
+2018-08-15T03:14:27.608323800Z       "childNodeCount": 0,
+2018-08-15T03:14:27.608327700Z       "localName": "body",
+2018-08-15T03:14:27.608331600Z       "nodeId": 37,
+2018-08-15T03:14:27.608335600Z       "nodeName": "BODY",
+2018-08-15T03:14:27.608339900Z       "nodeType": 1,
+2018-08-15T03:14:27.608343800Z       "nodeValue": ""
+2018-08-15T03:14:27.608347800Z    },
+2018-08-15T03:14:27.608351500Z    "parentNodeId": 34,
+2018-08-15T03:14:27.608355300Z    "previousNodeId": 36
+2018-08-15T03:14:27.608359200Z }
+2018-08-15T03:14:27.608362900Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608366800Z    "childNodeCount": 1,
+2018-08-15T03:14:27.608370600Z    "nodeId": 37
+2018-08-15T03:14:27.608374400Z }
+2018-08-15T03:14:27.608378200Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608382000Z    "childNodeCount": 2,
+2018-08-15T03:14:27.608385900Z    "nodeId": 37
+2018-08-15T03:14:27.608389700Z }
+2018-08-15T03:14:27.608393400Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608397400Z    "childNodeCount": 3,
+2018-08-15T03:14:27.608401200Z    "nodeId": 37
+2018-08-15T03:14:27.608404900Z }
+2018-08-15T03:14:27.608408700Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608412600Z    "childNodeCount": 4,
+2018-08-15T03:14:27.608416400Z    "nodeId": 37
+2018-08-15T03:14:27.608428700Z }
+2018-08-15T03:14:27.608433100Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608437600Z    "childNodeCount": 5,
+2018-08-15T03:14:27.608441500Z    "nodeId": 37
+2018-08-15T03:14:27.608445400Z }
+2018-08-15T03:14:27.608449200Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608453300Z    "childNodeCount": 6,
+2018-08-15T03:14:27.608457500Z    "nodeId": 37
+2018-08-15T03:14:27.608461400Z }
+2018-08-15T03:14:27.608465100Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608469200Z    "childNodeCount": 5,
+2018-08-15T03:14:27.608473000Z    "nodeId": 37
+2018-08-15T03:14:27.608476900Z }
+2018-08-15T03:14:27.608480700Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608484700Z    "childNodeCount": 6,
+2018-08-15T03:14:27.608488600Z    "nodeId": 37
+2018-08-15T03:14:27.608492400Z }
+2018-08-15T03:14:27.608496100Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608500000Z    "childNodeCount": 5,
+2018-08-15T03:14:27.608503800Z    "nodeId": 37
+2018-08-15T03:14:27.608507500Z }
+2018-08-15T03:14:27.608511200Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:27.608515100Z    "name": "class",
+2018-08-15T03:14:27.608518900Z    "nodeId": 34,
+2018-08-15T03:14:27.608522700Z    "value": " has-zcm   js no-touch opacity csstransforms3d csstransitions svg"
+2018-08-15T03:14:27.608526700Z }
+2018-08-15T03:14:27.608530400Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:27.608534300Z    "name": "class",
+2018-08-15T03:14:27.608538100Z    "nodeId": 34,
+2018-08-15T03:14:27.608541800Z    "value": " has-zcm   js no-touch opacity csstransforms3d csstransitions svg cssfilters"
+2018-08-15T03:14:27.608546700Z }
+2018-08-15T03:14:27.608550500Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeInserted {
+2018-08-15T03:14:27.608554500Z    "node": {
+2018-08-15T03:14:27.608558400Z       "attributes": [  ],
+2018-08-15T03:14:27.608562400Z       "backendNodeId": 28,
+2018-08-15T03:14:27.608566300Z       "childNodeCount": 0,
+2018-08-15T03:14:27.608570200Z       "localName": "div",
+2018-08-15T03:14:27.608574100Z       "nodeId": 38,
+2018-08-15T03:14:27.608578000Z       "nodeName": "DIV",
+2018-08-15T03:14:27.608581900Z       "nodeType": 1,
+2018-08-15T03:14:27.608585700Z       "nodeValue": ""
+2018-08-15T03:14:27.608589600Z    },
+2018-08-15T03:14:27.608596500Z    "parentNodeId": 34,
+2018-08-15T03:14:27.608600600Z    "previousNodeId": 37
+2018-08-15T03:14:27.608604500Z }
+2018-08-15T03:14:27.608608300Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:27.608612200Z    "name": "id",
+2018-08-15T03:14:27.608616100Z    "nodeId": 38,
+2018-08-15T03:14:27.608619800Z    "value": "sizzle-1534302867568"
+2018-08-15T03:14:27.608623800Z }
+2018-08-15T03:14:27.608627400Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeRemoved {
+2018-08-15T03:14:27.608631300Z    "nodeId": 38,
+2018-08-15T03:14:27.608635100Z    "parentNodeId": 34
+2018-08-15T03:14:27.608638900Z }
+2018-08-15T03:14:27.608642600Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608646500Z    "childNodeCount": 6,
+2018-08-15T03:14:27.608650300Z    "nodeId": 37
+2018-08-15T03:14:27.608654100Z }
+2018-08-15T03:14:27.608657800Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608661700Z    "childNodeCount": 7,
+2018-08-15T03:14:27.608665500Z    "nodeId": 37
+2018-08-15T03:14:27.608669300Z }
+2018-08-15T03:14:27.608673000Z [1534302867.605][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.608676900Z    "childNodeCount": 8,
+2018-08-15T03:14:27.608680800Z    "nodeId": 37
+2018-08-15T03:14:27.608684600Z }
+2018-08-15T03:14:27.608688400Z [1534302867.605][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=61) {
+2018-08-15T03:14:27.608692400Z    "expression": "1"
+2018-08-15T03:14:27.608696400Z }
+2018-08-15T03:14:27.631746100Z [1534302867.632][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.631781900Z    "childNodeCount": 9,
+2018-08-15T03:14:27.631787400Z    "nodeId": 37
+2018-08-15T03:14:27.631791400Z }
+2018-08-15T03:14:27.631795200Z [1534302867.632][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.631799200Z    "childNodeCount": 10,
+2018-08-15T03:14:27.631803000Z    "nodeId": 37
+2018-08-15T03:14:27.631806800Z }
+2018-08-15T03:14:27.631810500Z [1534302867.632][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.631814300Z    "childNodeCount": 11,
+2018-08-15T03:14:27.631818000Z    "nodeId": 37
+2018-08-15T03:14:27.631821600Z }
+2018-08-15T03:14:27.631825200Z [1534302867.632][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=61) {
+2018-08-15T03:14:27.631829000Z    "result": {
+2018-08-15T03:14:27.631832700Z       "description": "1",
+2018-08-15T03:14:27.631836500Z       "type": "number",
+2018-08-15T03:14:27.631850300Z       "value": 1
+2018-08-15T03:14:27.631854400Z    }
+2018-08-15T03:14:27.631858600Z }
+2018-08-15T03:14:27.631862200Z [1534302867.632][DEBUG]: DEVTOOLS EVENT Page.frameResized {
+2018-08-15T03:14:27.631866000Z 
+2018-08-15T03:14:27.631869600Z }
+2018-08-15T03:14:27.631873200Z [1534302867.632][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=62) {
+2018-08-15T03:14:27.631876900Z    "expression": "1"
+2018-08-15T03:14:27.631880700Z }
+2018-08-15T03:14:27.633387400Z [1534302867.633][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=62) {
+2018-08-15T03:14:27.633406200Z    "result": {
+2018-08-15T03:14:27.633410900Z       "description": "1",
+2018-08-15T03:14:27.633415000Z       "type": "number",
+2018-08-15T03:14:27.633419100Z       "value": 1
+2018-08-15T03:14:27.633423000Z    }
+2018-08-15T03:14:27.633426800Z }
+2018-08-15T03:14:27.748152600Z [1534302867.748][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.748172900Z    "childNodeCount": 12,
+2018-08-15T03:14:27.748177800Z    "nodeId": 37
+2018-08-15T03:14:27.748182100Z }
+2018-08-15T03:14:27.748186000Z [1534302867.748][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=63) {
+2018-08-15T03:14:27.748190200Z    "expression": "1"
+2018-08-15T03:14:27.748194300Z }
+2018-08-15T03:14:27.749066400Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749077000Z    "childNodeCount": 13,
+2018-08-15T03:14:27.749081800Z    "nodeId": 37
+2018-08-15T03:14:27.749086000Z }
+2018-08-15T03:14:27.749090100Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749094400Z    "childNodeCount": 14,
+2018-08-15T03:14:27.749098400Z    "nodeId": 37
+2018-08-15T03:14:27.749102300Z }
+2018-08-15T03:14:27.749106200Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749110400Z    "childNodeCount": 15,
+2018-08-15T03:14:27.749126400Z    "nodeId": 37
+2018-08-15T03:14:27.749143900Z }
+2018-08-15T03:14:27.749148000Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749152200Z    "childNodeCount": 16,
+2018-08-15T03:14:27.749156200Z    "nodeId": 37
+2018-08-15T03:14:27.749160200Z }
+2018-08-15T03:14:27.749164100Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749168200Z    "childNodeCount": 17,
+2018-08-15T03:14:27.749172100Z    "nodeId": 37
+2018-08-15T03:14:27.749176100Z }
+2018-08-15T03:14:27.749188200Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749192700Z    "childNodeCount": 18,
+2018-08-15T03:14:27.749196700Z    "nodeId": 37
+2018-08-15T03:14:27.749200500Z }
+2018-08-15T03:14:27.749204300Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749208300Z    "childNodeCount": 19,
+2018-08-15T03:14:27.749212200Z    "nodeId": 36
+2018-08-15T03:14:27.749216000Z }
+2018-08-15T03:14:27.749219900Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749223800Z    "childNodeCount": 19,
+2018-08-15T03:14:27.749227700Z    "nodeId": 37
+2018-08-15T03:14:27.749231500Z }
+2018-08-15T03:14:27.749235300Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749239200Z    "childNodeCount": 18,
+2018-08-15T03:14:27.749243100Z    "nodeId": 37
+2018-08-15T03:14:27.749246900Z }
+2018-08-15T03:14:27.749250600Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749254500Z    "childNodeCount": 20,
+2018-08-15T03:14:27.749258300Z    "nodeId": 36
+2018-08-15T03:14:27.749262100Z }
+2018-08-15T03:14:27.749265900Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749269800Z    "childNodeCount": 21,
+2018-08-15T03:14:27.749273600Z    "nodeId": 36
+2018-08-15T03:14:27.749277400Z }
+2018-08-15T03:14:27.749281200Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749285100Z    "childNodeCount": 22,
+2018-08-15T03:14:27.749288900Z    "nodeId": 36
+2018-08-15T03:14:27.749292700Z }
+2018-08-15T03:14:27.749296400Z [1534302867.749][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.749300400Z    "childNodeCount": 19,
+2018-08-15T03:14:27.749306700Z    "nodeId": 37
+2018-08-15T03:14:27.749310500Z }
+2018-08-15T03:14:27.749314400Z [1534302867.749][DEBUG]: DEVTOOLS EVENT Page.frameAttached {
+2018-08-15T03:14:27.749318300Z    "frameId": "91496F410F28DC529A410D6066DCB61B",
+2018-08-15T03:14:27.749322300Z    "parentFrameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:27.749326400Z    "stack": {
+2018-08-15T03:14:27.749330200Z       "callFrames": [ {
+2018-08-15T03:14:27.749334100Z          "columnNumber": 73613,
+2018-08-15T03:14:27.749338100Z          "functionName": "_initializePage",
+2018-08-15T03:14:27.749342100Z          "lineNumber": 0,
+2018-08-15T03:14:27.749345900Z          "scriptId": "25",
+2018-08-15T03:14:27.749353300Z          "url": "https://duckduckgo.com/d2470.js"
+2018-08-15T03:14:27.749357600Z       }, {
+2018-08-15T03:14:27.749361400Z          "columnNumber": 68316,
+2018-08-15T03:14:27.749365300Z          "functionName": "ready",
+2018-08-15T03:14:27.749369200Z          "lineNumber": 0,
+2018-08-15T03:14:27.749373000Z          "scriptId": "25",
+2018-08-15T03:14:27.749376800Z          "url": "https://duckduckgo.com/d2470.js"
+2018-08-15T03:14:27.749380700Z       }, {
+2018-08-15T03:14:27.749385100Z          "columnNumber": 7190,
+2018-08-15T03:14:27.749389200Z          "functionName": "ready",
+2018-08-15T03:14:27.749393100Z          "lineNumber": 0,
+2018-08-15T03:14:27.749396900Z          "scriptId": "46",
+2018-08-15T03:14:27.749400800Z          "url": "https://duckduckgo.com/g1970.js"
+2018-08-15T03:14:27.749404700Z       }, {
+2018-08-15T03:14:27.749408500Z          "columnNumber": 13587,
+2018-08-15T03:14:27.749412300Z          "functionName": "",
+2018-08-15T03:14:27.749416100Z          "lineNumber": 0,
+2018-08-15T03:14:27.749419900Z          "scriptId": "24",
+2018-08-15T03:14:27.749423700Z          "url": "https://duckduckgo.com/util/u238.js"
+2018-08-15T03:14:27.749427600Z       }, {
+2018-08-15T03:14:27.749431300Z          "columnNumber": 20851,
+2018-08-15T03:14:27.749435100Z          "functionName": "b3",
+2018-08-15T03:14:27.749439000Z          "lineNumber": 25,
+2018-08-15T03:14:27.749442800Z          "scriptId": "23",
+2018-08-15T03:14:27.749446700Z          "url": "https://duckduckgo.com/lib/l110.js"
+2018-08-15T03:14:27.749450600Z       }, {
+2018-08-15T03:14:27.749454400Z          "columnNumber": 21845,
+2018-08-15T03:14:27.749458300Z          "functionName": "fireWith",
+2018-08-15T03:14:27.749462200Z          "lineNumber": 25,
+2018-08-15T03:14:27.749466000Z          "scriptId": "23",
+2018-08-15T03:14:27.749469900Z          "url": "https://duckduckgo.com/lib/l110.js"
+2018-08-15T03:14:27.749473800Z       }, {
+2018-08-15T03:14:27.749477600Z          "columnNumber": 3702,
+2018-08-15T03:14:27.749481500Z          "functionName": "ready",
+2018-08-15T03:14:27.749485400Z          "lineNumber": 14,
+2018-08-15T03:14:27.749489200Z          "scriptId": "23",
+2018-08-15T03:14:27.749493100Z          "url": "https://duckduckgo.com/lib/l110.js"
+2018-08-15T03:14:27.749497100Z       }, {
+2018-08-15T03:14:27.749500800Z          "columnNumber": 756,
+2018-08-15T03:14:27.749504700Z          "functionName": "bW",
+2018-08-15T03:14:27.749508500Z          "lineNumber": 14,
+2018-08-15T03:14:27.749515400Z          "scriptId": "23",
+2018-08-15T03:14:27.749519600Z          "url": "https://duckduckgo.com/lib/l110.js"
+2018-08-15T03:14:27.749523800Z       } ]
+2018-08-15T03:14:27.749527600Z    }
+2018-08-15T03:14:27.749531400Z }
+2018-08-15T03:14:27.778318900Z [1534302867.778][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+2018-08-15T03:14:27.778342300Z    "frameId": "91496F410F28DC529A410D6066DCB61B"
+2018-08-15T03:14:27.778347500Z }
+2018-08-15T03:14:27.778351700Z [1534302867.778][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:27.778356000Z    "name": "class",
+2018-08-15T03:14:27.778360200Z    "nodeId": 34,
+2018-08-15T03:14:27.778364200Z    "value": "has-zcm   js no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device"
+2018-08-15T03:14:27.778368500Z }
+2018-08-15T03:14:27.778372300Z [1534302867.778][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+2018-08-15T03:14:27.778376300Z    "name": "class",
+2018-08-15T03:14:27.778380300Z    "nodeId": 34,
+2018-08-15T03:14:27.778384300Z    "value": "has-zcm   js no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device full-urls"
+2018-08-15T03:14:27.778388700Z }
+2018-08-15T03:14:27.778392600Z [1534302867.778][DEBUG]: DEVTOOLS EVENT Page.domContentEventFired {
+2018-08-15T03:14:27.778396600Z    "timestamp": 53545.542284
+2018-08-15T03:14:27.778400600Z }
+2018-08-15T03:14:27.778404400Z [1534302867.778][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+2018-08-15T03:14:27.778408500Z 
+2018-08-15T03:14:27.778412300Z }
+2018-08-15T03:14:27.778416200Z [1534302867.778][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=64) {
+2018-08-15T03:14:27.778420300Z 
+2018-08-15T03:14:27.778424000Z }
+2018-08-15T03:14:27.788352700Z [1534302867.788][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=63) {
+2018-08-15T03:14:27.788380600Z    "result": {
+2018-08-15T03:14:27.788385700Z       "description": "1",
+2018-08-15T03:14:27.788389900Z       "type": "number",
+2018-08-15T03:14:27.788394100Z       "value": 1
+2018-08-15T03:14:27.788398100Z    }
+2018-08-15T03:14:27.788402000Z }
+2018-08-15T03:14:27.788405900Z [1534302867.788][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=64) {
+2018-08-15T03:14:27.788410000Z    "root": {
+2018-08-15T03:14:27.788414000Z       "backendNodeId": 16,
+2018-08-15T03:14:27.788418000Z       "baseURL": "https://duckduckgo.com/?q=selenium&t=hj",
+2018-08-15T03:14:27.788422300Z       "childNodeCount": 8,
+2018-08-15T03:14:27.788426300Z       "children": [ {
+2018-08-15T03:14:27.788443500Z          "backendNodeId": 17,
+2018-08-15T03:14:27.788447800Z          "localName": "",
+2018-08-15T03:14:27.788452000Z          "nodeId": 40,
+2018-08-15T03:14:27.788455800Z          "nodeName": "html",
+2018-08-15T03:14:27.788459700Z          "nodeType": 10,
+2018-08-15T03:14:27.788463500Z          "nodeValue": "",
+2018-08-15T03:14:27.788467400Z          "parentId": 39,
+2018-08-15T03:14:27.788471100Z          "publicId": "",
+2018-08-15T03:14:27.788474900Z          "systemId": ""
+2018-08-15T03:14:27.788478700Z       }, {
+2018-08-15T03:14:27.788482400Z          "backendNodeId": 18,
+2018-08-15T03:14:27.788486100Z          "localName": "",
+2018-08-15T03:14:27.788489900Z          "nodeId": 41,
+2018-08-15T03:14:27.788493700Z          "nodeName": "#comment",
+2018-08-15T03:14:27.788497600Z          "nodeType": 8,
+2018-08-15T03:14:27.788501400Z          "nodeValue": "[if IEMobile 7 ]> \u003Chtml lang=\"en_US\" class=\"no-js iem7\"> \u003C![endif]",
+2018-08-15T03:14:27.788505800Z          "parentId": 39
+2018-08-15T03:14:27.788509600Z       }, {
+2018-08-15T03:14:27.788513300Z          "backendNodeId": 19,
+2018-08-15T03:14:27.788517100Z          "localName": "",
+2018-08-15T03:14:27.788520800Z          "nodeId": 42,
+2018-08-15T03:14:27.788524600Z          "nodeName": "#comment",
+2018-08-15T03:14:27.788528500Z          "nodeType": 8,
+2018-08-15T03:14:27.788532300Z          "nodeValue": "[if lt IE 7]> \u003Chtml lang=\"en_US\" class=\"no-js ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7\">\u003C![endif]",
+2018-08-15T03:14:27.788536700Z          "parentId": 39
+2018-08-15T03:14:27.788540500Z       }, {
+2018-08-15T03:14:27.788544200Z          "backendNodeId": 20,
+2018-08-15T03:14:27.788547900Z          "localName": "",
+2018-08-15T03:14:27.788551700Z          "nodeId": 43,
+2018-08-15T03:14:27.788555400Z          "nodeName": "#comment",
+2018-08-15T03:14:27.788559200Z          "nodeType": 8,
+2018-08-15T03:14:27.788563100Z          "nodeValue": "[if IE 7]>    \u003Chtml lang=\"en_US\" class=\"no-js ie7 lt-ie10 lt-ie9 lt-ie8\"> \u003C![endif]",
+2018-08-15T03:14:27.788567500Z          "parentId": 39
+2018-08-15T03:14:27.788571200Z       }, {
+2018-08-15T03:14:27.788574900Z          "backendNodeId": 21,
+2018-08-15T03:14:27.788578600Z          "localName": "",
+2018-08-15T03:14:27.788582300Z          "nodeId": 44,
+2018-08-15T03:14:27.788586000Z          "nodeName": "#comment",
+2018-08-15T03:14:27.788589800Z          "nodeType": 8,
+2018-08-15T03:14:27.788593600Z          "nodeValue": "[if IE 8]>    \u003Chtml lang=\"en_US\" class=\"no-js ie8 lt-ie10 lt-ie9  has-zcm\">\u003C![endif]",
+2018-08-15T03:14:27.788603300Z          "parentId": 39
+2018-08-15T03:14:27.788607300Z       }, {
+2018-08-15T03:14:27.788610900Z          "backendNodeId": 22,
+2018-08-15T03:14:27.788614600Z          "localName": "",
+2018-08-15T03:14:27.788618300Z          "nodeId": 45,
+2018-08-15T03:14:27.788621900Z          "nodeName": "#comment",
+2018-08-15T03:14:27.788625600Z          "nodeType": 8,
+2018-08-15T03:14:27.788629300Z          "nodeValue": "[if IE 9]>    \u003Chtml lang=\"en_US\" class=\"no-js ie9 lt-ie10 has-zcm\"> \u003C![endif]",
+2018-08-15T03:14:27.788634300Z          "parentId": 39
+2018-08-15T03:14:27.788638200Z       }, {
+2018-08-15T03:14:27.788641800Z          "backendNodeId": 23,
+2018-08-15T03:14:27.788645500Z          "localName": "",
+2018-08-15T03:14:27.788649200Z          "nodeId": 46,
+2018-08-15T03:14:27.788652900Z          "nodeName": "#comment",
+2018-08-15T03:14:27.788656700Z          "nodeType": 8,
+2018-08-15T03:14:27.788660500Z          "nodeValue": "[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]>\u003C!",
+2018-08-15T03:14:27.788664600Z          "parentId": 39
+2018-08-15T03:14:27.788668300Z       }, {
+2018-08-15T03:14:27.788672000Z          "attributes": [ "class", "has-zcm   js no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device full-urls" ],
+2018-08-15T03:14:27.788676200Z          "backendNodeId": 24,
+2018-08-15T03:14:27.788679900Z          "childNodeCount": 3,
+2018-08-15T03:14:27.788683700Z          "children": [ {
+2018-08-15T03:14:27.788687300Z             "backendNodeId": 25,
+2018-08-15T03:14:27.788691000Z             "localName": "",
+2018-08-15T03:14:27.788694800Z             "nodeId": 48,
+2018-08-15T03:14:27.788698500Z             "nodeName": "#comment",
+2018-08-15T03:14:27.788702200Z             "nodeType": 8,
+2018-08-15T03:14:27.788705900Z             "nodeValue": "\u003C![endif]",
+2018-08-15T03:14:27.788709600Z             "parentId": 47
+2018-08-15T03:14:27.788713300Z          }, {
+2018-08-15T03:14:27.788716900Z             "attributes": [  ],
+2018-08-15T03:14:27.788720600Z             "backendNodeId": 26,
+2018-08-15T03:14:27.788724300Z             "childNodeCount": 22,
+2018-08-15T03:14:27.788727900Z             "localName": "head",
+2018-08-15T03:14:27.788731600Z             "nodeId": 49,
+2018-08-15T03:14:27.788735300Z             "nodeName": "HEAD",
+2018-08-15T03:14:27.788739000Z             "nodeType": 1,
+2018-08-15T03:14:27.788742600Z             "nodeValue": "",
+2018-08-15T03:14:27.788749200Z             "parentId": 47
+2018-08-15T03:14:27.788753100Z          }, {
+2018-08-15T03:14:27.788756800Z             "attributes": [ "class", "body--serp" ],
+2018-08-15T03:14:27.788760700Z             "backendNodeId": 27,
+2018-08-15T03:14:27.788764400Z             "childNodeCount": 19,
+2018-08-15T03:14:27.788768100Z             "localName": "body",
+2018-08-15T03:14:27.788771900Z             "nodeId": 50,
+2018-08-15T03:14:27.788775600Z             "nodeName": "BODY",
+2018-08-15T03:14:27.788779400Z             "nodeType": 1,
+2018-08-15T03:14:27.788783100Z             "nodeValue": "",
+2018-08-15T03:14:27.788786800Z             "parentId": 47
+2018-08-15T03:14:27.788790500Z          } ],
+2018-08-15T03:14:27.788794200Z          "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:27.788798100Z          "localName": "html",
+2018-08-15T03:14:27.788802000Z          "nodeId": 47,
+2018-08-15T03:14:27.788805800Z          "nodeName": "HTML",
+2018-08-15T03:14:27.788809600Z          "nodeType": 1,
+2018-08-15T03:14:27.788813300Z          "nodeValue": "",
+2018-08-15T03:14:27.788817100Z          "parentId": 39
+2018-08-15T03:14:27.788820800Z       } ],
+2018-08-15T03:14:27.788824400Z       "documentURL": "https://duckduckgo.com/?q=selenium&t=hj",
+2018-08-15T03:14:27.788828400Z       "localName": "",
+2018-08-15T03:14:27.788832200Z       "nodeId": 39,
+2018-08-15T03:14:27.788835800Z       "nodeName": "#document",
+2018-08-15T03:14:27.788839600Z       "nodeType": 9,
+2018-08-15T03:14:27.788843200Z       "nodeValue": "",
+2018-08-15T03:14:27.788846900Z       "xmlVersion": ""
+2018-08-15T03:14:27.788850600Z    }
+2018-08-15T03:14:27.788854200Z }
+2018-08-15T03:14:27.789502800Z [1534302867.789][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+2018-08-15T03:14:27.789514700Z    "frame": {
+2018-08-15T03:14:27.789519900Z       "id": "91496F410F28DC529A410D6066DCB61B",
+2018-08-15T03:14:27.789524400Z       "loaderId": "1936E2228B930075C345A0058C67EAB9",
+2018-08-15T03:14:27.789528800Z       "mimeType": "text/html",
+2018-08-15T03:14:27.789546100Z       "name": "iframe_hidden",
+2018-08-15T03:14:27.789550600Z       "parentId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:27.789555000Z       "securityOrigin": "https://duckduckgo.com",
+2018-08-15T03:14:27.789559500Z       "url": "https://duckduckgo.com/post2.html"
+2018-08-15T03:14:27.789563700Z    }
+2018-08-15T03:14:27.789567700Z }
+2018-08-15T03:14:27.789578600Z [1534302867.789][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=65) {
+2018-08-15T03:14:27.789583100Z    "expression": "1"
+2018-08-15T03:14:27.789587100Z }
+2018-08-15T03:14:27.789620400Z [1534302867.790][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+2018-08-15T03:14:27.789627000Z    "context": {
+2018-08-15T03:14:27.789631300Z       "auxData": {
+2018-08-15T03:14:27.789635200Z          "frameId": "91496F410F28DC529A410D6066DCB61B",
+2018-08-15T03:14:27.789639400Z          "isDefault": true
+2018-08-15T03:14:27.789643300Z       },
+2018-08-15T03:14:27.789647200Z       "id": 4,
+2018-08-15T03:14:27.789651100Z       "name": "",
+2018-08-15T03:14:27.789655100Z       "origin": "https://duckduckgo.com"
+2018-08-15T03:14:27.789659200Z    }
+2018-08-15T03:14:27.789663100Z }
+2018-08-15T03:14:27.789983100Z [1534302867.790][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+2018-08-15T03:14:27.789992500Z    "frameId": "91496F410F28DC529A410D6066DCB61B"
+2018-08-15T03:14:27.789997100Z }
+2018-08-15T03:14:27.790820400Z [1534302867.791][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=65) {
+2018-08-15T03:14:27.790829100Z    "result": {
+2018-08-15T03:14:27.790833500Z       "description": "1",
+2018-08-15T03:14:27.790837600Z       "type": "number",
+2018-08-15T03:14:27.790841600Z       "value": 1
+2018-08-15T03:14:27.790845400Z    }
+2018-08-15T03:14:27.790849200Z }
+2018-08-15T03:14:27.936139100Z [1534302867.936][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+2018-08-15T03:14:27.936204100Z    "childNodeCount": 23,
+2018-08-15T03:14:27.936217500Z    "nodeId": 49
+2018-08-15T03:14:27.936227400Z }
+2018-08-15T03:14:27.936236700Z [1534302867.936][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=66) {
+2018-08-15T03:14:27.936246400Z    "expression": "1"
+2018-08-15T03:14:27.936281000Z }
+2018-08-15T03:14:27.945243800Z [1534302867.945][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=66) {
+2018-08-15T03:14:27.945278100Z    "result": {
+2018-08-15T03:14:27.945290200Z       "description": "1",
+2018-08-15T03:14:27.945300300Z       "type": "number",
+2018-08-15T03:14:27.945310100Z       "value": 1
+2018-08-15T03:14:27.945319600Z    }
+2018-08-15T03:14:27.945328700Z }
+2018-08-15T03:14:28.897139600Z [1534302868.897][DEBUG]: DEVTOOLS EVENT Page.navigatedWithinDocument {
+2018-08-15T03:14:28.897159900Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0",
+2018-08-15T03:14:28.897165100Z    "url": "https://duckduckgo.com/?q=selenium&t=hj&ia=answer"
+2018-08-15T03:14:28.897170000Z }
+2018-08-15T03:14:28.897183300Z [1534302868.897][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=67) {
+2018-08-15T03:14:28.897187600Z    "expression": "1"
+2018-08-15T03:14:28.897191600Z }
+2018-08-15T03:14:28.910177200Z [1534302868.910][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=67) {
+2018-08-15T03:14:28.910205100Z    "result": {
+2018-08-15T03:14:28.910210000Z       "description": "1",
+2018-08-15T03:14:28.910214300Z       "type": "number",
+2018-08-15T03:14:28.910218300Z       "value": 1
+2018-08-15T03:14:28.910222100Z    }
+2018-08-15T03:14:28.910226000Z }
+2018-08-15T03:14:29.569999200Z [1534302869.570][DEBUG]: DEVTOOLS EVENT Page.loadEventFired {
+2018-08-15T03:14:29.570057700Z    "timestamp": 53547.330629
+2018-08-15T03:14:29.570069400Z }
+2018-08-15T03:14:29.570078600Z [1534302869.570][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+2018-08-15T03:14:29.570088000Z    "frameId": "A2962F5286A287E2AE291EE43386CEC0"
+2018-08-15T03:14:29.570097700Z }
+2018-08-15T03:14:29.570106300Z [1534302869.570][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=68) {
+2018-08-15T03:14:29.570115500Z    "expression": "1"
+2018-08-15T03:14:29.570124500Z }
+2018-08-15T03:14:29.572178900Z [1534302869.572][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=68) {
+2018-08-15T03:14:29.572205500Z    "result": {
+2018-08-15T03:14:29.572216500Z       "description": "1",
+2018-08-15T03:14:29.572226500Z       "type": "number",
+2018-08-15T03:14:29.572236200Z       "value": 1
+2018-08-15T03:14:29.572245600Z    }
+2018-08-15T03:14:29.572254700Z }
+2018-08-15T03:14:29.572263800Z [1534302869.572][INFO]: Done waiting for pending navigations. Status: ok
+2018-08-15T03:14:29.572273400Z [1534302869.572][INFO]: RESPONSE TypeElement
+2018-08-15T03:14:49.580627600Z [1534302889.580][INFO]: COMMAND Quit {
+2018-08-15T03:14:49.580649000Z 
+2018-08-15T03:14:49.580671800Z }
+2018-08-15T03:14:49.580676900Z [1534302889.580][INFO]: RESPONSE Quit
+2018-08-15T03:14:49.580681600Z [1534302889.580][DEBUG]: Log type 'driver' lost 0 entries on destruction
+2018-08-15T03:14:49.580686200Z [1534302889.580][DEBUG]: Log type 'browser' lost 0 entries on destruction

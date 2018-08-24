@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+
+  nginx:
+    image: nginx:stable-alpine
+    depends_on:
+    - ggr
+    ports:
+    - 4443:4443
+    restart: unless-stopped
+    volumes:
+    - ./etc/nginx/conf.d/ggr.conf:/etc/nginx/conf.d/ggr.conf:ro
+
+  ggr:
+    image: aerokube/ggr:latest-release
+    ports:
+    - 5555:5555
+    restart: unless-stopped
+    volumes:
+    - ./etc/grid-router:/etc/grid-router:ro
+    command: ["-listen", ":5555"]

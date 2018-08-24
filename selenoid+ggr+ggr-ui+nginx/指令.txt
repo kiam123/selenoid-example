@@ -1,0 +1,1 @@
+﻿需要開啟android、Chrome、Firefox、Opera、IE、Edge才能呈現selenoid+ggr+ggr-ui+nginx
