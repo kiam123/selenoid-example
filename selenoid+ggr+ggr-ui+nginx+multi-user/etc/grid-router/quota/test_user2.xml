@@ -2,21 +2,21 @@
  <browser name="chrome" defaultVersion="67.0">
 	<version number="67.0">
         <region name="Taiwan">
-			<host name="140.116.6.61" port="8083" count="50"/>
+			<host name="127.0.0.1" port="8083" count="50"/>
         </region>
 	</version>
 </browser>
 <browser name="internet explorer" defaultVersion="11">
 	<version number="11">
         <region name="Taiwan">
-			<host name="140.116.6.61" port="4444" count="1"/>
+			<host name="127.0.0.1" port="4444" count="1"/>
         </region>
 	</version>
 </browser>
 <browser name="MicrosoftEdge" defaultVersion="42">
 	<version number="42">
         <region name="Taiwan">
-			<host name="140.116.6.61" port="4444" count="1"/>
+			<host name="127.0.0.1" port="4444" count="1"/>
         </region>
 	</version>
 </browser>

@@ -12,4 +12,4 @@ filebeat.autodiscover:
                 - "${data.docker.container.id}"
 logging.metrics.enabled: false
 output.logstash:
-  hosts: ["140.116.6.61:5044"]
+  hosts: ["127.0.0.1:5044"]
